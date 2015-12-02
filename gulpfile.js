@@ -67,4 +67,4 @@ gulp.task('watch', function(){
 	gulp.watch('src/ts/**/*.ts', ['typescript']);
 });
 
-gulp.task('default', ['connect', 'typescript', 'html', 'css', 'js', 'watch']);
+gulp.task('default', ['connect', 'html', 'css', 'js', 'watch']);
