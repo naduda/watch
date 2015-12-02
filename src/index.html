@@ -1,0 +1,1687 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Watch</title>
+	<!-- build:css css/vendor.css -->
+	<!-- bower:css -->
+	<!-- endbower -->
+	<!-- endbuild -->
+	<!-- build:css css/style.min.css -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- endbuild -->
+	<!-- build:js js/vendor.js -->
+	<!-- bower:js -->
+	<script src="bower_components/jquery/dist/jquery.js"></script>
+	<!-- endbower -->
+	<!-- endbuild -->
+	<!-- build:js js/main.min.js -->
+	<script src="js/SVGtrans.js"></script>
+	<script src="js/Clock.js"></script>
+	<script src="js/watch.js"></script>
+	<!-- endbuild -->
+</head>
+<body>
+	<!-- <object data="watch.svg" width="100%" height="100%"></object> -->
+	<div id="svgWatch" style="display:none;">
+		<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events" width="100%" height="100%" viewBox="0 0 419.528 595.276" xml:space="preserve" color-interpolation-filters="sRGB" class="st82">
+			<style type="text/css">
+				.st1 {fill:#000000;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.98425}
+				.st2 {fill:#c0c0c0;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.98425}
+				.st3 {fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.98425}
+				.st4 {fill:#ff0000;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.98425}
+				.st5 {fill:#4d4d4d;stroke:#824b0f;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.98425}
+				.st6 {fill:url(#grad28-28);stroke:#824b0f;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.98425}
+				.st7 {fill:url(#grad40-38);stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.98425}
+				.st8 {fill:#c0c0c0;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.98425}
+				.st9 {fill:#993300;stroke:#800000;stroke-linecap:round;stroke-linejoin:round;stroke-width:3.12}
+				.st10 {fill:url(#grad34-204);stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.98425}
+				.st11 {fill:#000000;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.98425}
+				.st12 {fill:url(#grad25-212);stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.98425}
+				.st13 {fill:url(#grad25-216);stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.98425}
+				.st14 {fill:url(#grad29-220);stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.98425}
+				.st15 {fill:url(#grad25-224);stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.98425}
+				.st16 {fill:url(#grad33-228);stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.98425}
+				.st17 {fill:url(#grad27-234);stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.98425}
+				.st18 {fill:url(#grad27-206);stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.98425}
+				.st19 {fill:url(#grad38-243);stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.98425}
+				.st20 {fill:url(#grad29-247);stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.98425}
+				.st21 {fill:url(#grad28-251);stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.98425}
+				.st22 {fill:url(#grad27-255);stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.98425}
+				.st23 {fill:url(#grad36-259);stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.98425}
+				.st24 {fill:url(#grad25-263);stroke:#b98214;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.98425}
+				.st25 {fill:url(#grad25-267);stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.98425}
+				.st26 {fill:url(#grad26-271);stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.98425}
+				.st27 {fill:url(#grad25-277);stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.98425}
+				.st28 {fill:url(#grad29-281);stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.98425}
+				.st29 {fill:url(#grad29-285);stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.98425}
+				.st30 {fill:url(#grad27-289);stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.98425}
+				.st31 {fill:url(#grad27-296);stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.98425}
+				.st32 {fill:url(#grad31-300);stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.98425}
+				.st33 {fill:url(#grad25-306);stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.98425}
+				.st34 {fill:url(#grad26-310);stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.98425}
+				.st35 {fill:url(#grad27-314);stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.98425}
+				.st36 {fill:url(#grad28-318);stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.98425}
+				.st37 {fill:url(#grad29-325);stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.98425}
+				.st38 {fill:url(#grad29-335);stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.98425}
+				.st39 {fill:url(#grad25-339);stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.98425}
+				.st40 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.72}
+				.st41 {fill:#993300;font-family:Tahoma;font-size:3em}
+				.st42 {fill:#993300;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.72}
+				.st43 {fill:#000000;stroke:#000000;stroke-width:0.72}
+				.st44 {fill:#993300;stroke:#000000;stroke-width:0.72}
+				.st45 {fill:#800000;stroke:#000000;stroke-width:0.72}
+				.st46 {fill:none;stroke:#000000;stroke-width:0.72}
+				.st47 {stroke:#000000;stroke-width:1.2}
+				.st48 {fill:none;stroke:none;stroke-width:0.72}
+				.st49 {fill:#000000;font-family:Tahoma;font-size:0.833336em}
+				.st50 {fill:none;stroke:#000000;stroke-width:1.2}
+				.st51 {fill:#ff0000;font-family:Times New Roman;font-size:1.16666em}
+				.st52 {fill:#000000;font-family:Times New Roman;font-size:1.16666em}
+				.st53 {fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.2}
+				.st54 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.72}
+				.st55 {fill:#000000;font-family:Tahoma;font-size:0.499992em}
+				.st56 {fill:#000000;font-family:Tahoma;font-size:0.833336em;font-style:italic;font-weight:bold}
+				.st57 {fill:#d7d7d7;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.2}
+				.st58 {fill:#000000;font-family:Tahoma;font-size:1.00001em}
+				.st59 {fill:url(#grad30-725);stroke:#969696;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.2}
+				.st60 {fill:#ffff99;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.2}
+				.st61 {stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.98425}
+				.st62 {fill:url(#grad28-735);stroke:#969696;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.2}
+				.st63 {fill:#000000;font-family:Tahoma;font-size:1.16666em}
+				.st64 {fill:#000000;font-family:Tahoma;font-size:1.5em;font-style:italic;font-weight:bold}
+				.st65 {fill:none;stroke:#969696;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.2}
+				.st66 {fill:url(#grad27-778);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+				.st67 {fill:url(#grad30-782);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+				.st68 {fill:url(#grad30-786);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+				.st69 {fill:url(#grad40-790);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+				.st70 {fill:url(#grad40-794);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+				.st71 {fill:url(#grad28-801);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+				.st72 {fill:url(#grad28-805);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+				.st73 {fill:#339966;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.2}
+				.st74 {fill:#ff0000;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.2}
+				.st75 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.2}
+				.st76 {fill:#000000;font-family:Tahoma;font-size:0.666664em}
+				.st77 {fill:#000000;font-family:Tahoma;font-size:0.499992em;font-style:italic}
+				.st78 {fill:#000000;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.72}
+				.st79 {fill:#800000;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.72}
+				.st80 {fill:#993300;stroke:#800000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.72}
+				.st81 {stroke:#800000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.72}
+				.st82 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+			
+			</style>
+
+			<defs id="Patterns_And_Gradients">
+				<linearGradient id="grad28-28" x1="0" y1="0" x2="0" y2="1">
+					<stop offset="0" style="stop-color:#000000;stop-opacity:1"></stop>
+					<stop offset="1" style="stop-color:#d78714;stop-opacity:1"></stop>
+				</linearGradient>
+				<radialGradient id="grad40-38" cx="0.5" cy="0.5" r="0.5">
+					<stop offset="0" style="stop-color:#000000;stop-opacity:1"></stop>
+					<stop offset="1" style="stop-color:#824b0f;stop-opacity:1"></stop>
+				</radialGradient>
+				<pattern id="grad34-204" x="0" y="0" width="1" height="1" patternContentUnits="objectBoundingBox">
+					<path d="M 0 0 L 1 0 L 1 1 z" style="fill:url(#grad30-205)"></path>
+					<path d="M 0 0 L 0 1 L 1 1 z" style="fill:url(#grad27-206)"></path>
+				</pattern>
+				<linearGradient id="grad30-205" x1="0" y1="1" x2="0" y2="0">
+					<stop offset="0" style="stop-color:#000000;stop-opacity:1"></stop>
+					<stop offset="1" style="stop-color:#af640f;stop-opacity:1"></stop>
+				</linearGradient>
+				<linearGradient id="grad27-206" x1="1" y1="0" x2="0" y2="0">
+					<stop offset="0" style="stop-color:#000000;stop-opacity:1"></stop>
+					<stop offset="1" style="stop-color:#af640f;stop-opacity:1"></stop>
+				</linearGradient>
+				<linearGradient id="grad25-212" x1="0" y1="0" x2="1" y2="0">
+					<stop offset="0" style="stop-color:#000000;stop-opacity:1"></stop>
+					<stop offset="1" style="stop-color:#ffff99;stop-opacity:1"></stop>
+				</linearGradient>
+				<linearGradient id="grad25-216" x1="0" y1="0" x2="1" y2="0">
+					<stop offset="0" style="stop-color:#ffff99;stop-opacity:1"></stop>
+					<stop offset="1" style="stop-color:#d7a519;stop-opacity:1"></stop>
+				</linearGradient>
+				<linearGradient id="grad29-220" x1="0" y1="0" x2="0" y2="1">
+					<stop offset="0" style="stop-color:#d7a519;stop-opacity:1"></stop>
+					<stop offset="0.5" style="stop-color:#000000;stop-opacity:1"></stop>
+					<stop offset="1" style="stop-color:#d7a519;stop-opacity:1"></stop>
+				</linearGradient>
+				<linearGradient id="grad25-224" x1="0" y1="0" x2="1" y2="0">
+					<stop offset="0" style="stop-color:#824b0f;stop-opacity:1"></stop>
+					<stop offset="1" style="stop-color:#d7a532;stop-opacity:1"></stop>
+				</linearGradient>
+				<pattern id="grad33-228" x="0" y="0" width="1" height="1" patternContentUnits="objectBoundingBox">
+					<path d="M 0 1 L 0 0 L 1 0 z" style="fill:url(#grad30-229)"></path>
+					<path d="M 0 1 L 1 1 L 1 0 z" style="fill:url(#grad25-230)"></path>
+				</pattern>
+				<linearGradient id="grad30-229" x1="0" y1="1" x2="0" y2="0">
+					<stop offset="0" style="stop-color:#552d0a;stop-opacity:1"></stop>
+					<stop offset="1" style="stop-color:#d7a532;stop-opacity:1"></stop>
+				</linearGradient>
+				<linearGradient id="grad25-230" x1="0" y1="0" x2="1" y2="0">
+					<stop offset="0" style="stop-color:#552d0a;stop-opacity:1"></stop>
+					<stop offset="1" style="stop-color:#d7a532;stop-opacity:1"></stop>
+				</linearGradient>
+				<linearGradient id="grad27-234" x1="1" y1="0" x2="0" y2="0">
+					<stop offset="0" style="stop-color:#552d0a;stop-opacity:1"></stop>
+					<stop offset="1" style="stop-color:#000000;stop-opacity:1"></stop>
+				</linearGradient>
+				<radialGradient id="grad38-243" cx="0" cy="1" r="1">
+					<stop offset="0" style="stop-color:#c84b14;stop-opacity:1"></stop>
+					<stop offset="1" style="stop-color:#aa6414;stop-opacity:1"></stop>
+				</radialGradient>
+				<linearGradient id="grad29-247" x1="0" y1="0" x2="0" y2="1">
+					<stop offset="0" style="stop-color:#aa6414;stop-opacity:1"></stop>
+					<stop offset="0.5" style="stop-color:#000000;stop-opacity:1"></stop>
+					<stop offset="1" style="stop-color:#aa6414;stop-opacity:1"></stop>
+				</linearGradient>
+				<linearGradient id="grad28-251" x1="0" y1="0" x2="0" y2="1">
+					<stop offset="0" style="stop-color:#c86414;stop-opacity:1"></stop>
+					<stop offset="1" style="stop-color:#aa6414;stop-opacity:1"></stop>
+				</linearGradient>
+				<linearGradient id="grad27-255" x1="1" y1="0" x2="0" y2="0">
+					<stop offset="0" style="stop-color:#964b19;stop-opacity:1"></stop>
+					<stop offset="1" style="stop-color:#c8640f;stop-opacity:1"></stop>
+				</linearGradient>
+				<radialGradient id="grad36-259" cx="0" cy="0" r="1">
+					<stop offset="0" style="stop-color:#c88719;stop-opacity:1"></stop>
+					<stop offset="1" style="stop-color:#824b0f;stop-opacity:1"></stop>
+				</radialGradient>
+				<linearGradient id="grad25-263" x1="0" y1="0" x2="1" y2="0">
+					<stop offset="0" style="stop-color:#d7a519;stop-opacity:1"></stop>
+					<stop offset="1" style="stop-color:#000000;stop-opacity:1"></stop>
+				</linearGradient>
+				<linearGradient id="grad25-267" x1="0" y1="0" x2="1" y2="0">
+					<stop offset="0" style="stop-color:#824b0f;stop-opacity:1"></stop>
+					<stop offset="1" style="stop-color:#d7a519;stop-opacity:1"></stop>
+				</linearGradient>
+				<linearGradient id="grad26-271" x1="0" y1="0" x2="1" y2="0">
+					<stop offset="0" style="stop-color:#824b0f;stop-opacity:1"></stop>
+					<stop offset="0.5" style="stop-color:#000000;stop-opacity:1"></stop>
+					<stop offset="1" style="stop-color:#824b0f;stop-opacity:1"></stop>
+				</linearGradient>
+				<linearGradient id="grad25-277" x1="0" y1="0" x2="1" y2="0">
+					<stop offset="0" style="stop-color:#c86414;stop-opacity:1"></stop>
+					<stop offset="1" style="stop-color:#af640f;stop-opacity:1"></stop>
+				</linearGradient>
+				<linearGradient id="grad29-281" x1="0" y1="0" x2="0" y2="1">
+					<stop offset="0" style="stop-color:#c86414;stop-opacity:1"></stop>
+					<stop offset="0.5" style="stop-color:#d78714;stop-opacity:1"></stop>
+					<stop offset="1" style="stop-color:#c86414;stop-opacity:1"></stop>
+				</linearGradient>
+				<linearGradient id="grad29-285" x1="0" y1="0" x2="0" y2="1">
+					<stop offset="0" style="stop-color:#c86414;stop-opacity:1"></stop>
+					<stop offset="0.5" style="stop-color:#000000;stop-opacity:1"></stop>
+					<stop offset="1" style="stop-color:#c86414;stop-opacity:1"></stop>
+				</linearGradient>
+				<linearGradient id="grad27-289" x1="1" y1="0" x2="0" y2="0">
+					<stop offset="0" style="stop-color:#aa6414;stop-opacity:1"></stop>
+					<stop offset="1" style="stop-color:#c86414;stop-opacity:1"></stop>
+				</linearGradient>
+				<linearGradient id="grad27-296" x1="1" y1="0" x2="0" y2="0">
+					<stop offset="0" style="stop-color:#824b0f;stop-opacity:1"></stop>
+					<stop offset="1" style="stop-color:#aa6414;stop-opacity:1"></stop>
+				</linearGradient>
+				<pattern id="grad31-300" x="0" y="0" width="1" height="1" patternContentUnits="objectBoundingBox">
+					<path d="M 0 0 L 0 1 L 1 1 z" style="fill:url(#grad28-301)"></path>
+					<path d="M 0 0 L 1 0 L 1 1 z" style="fill:url(#grad25-302)"></path>
+				</pattern>
+				<linearGradient id="grad28-301" x1="0" y1="0" x2="0" y2="1">
+					<stop offset="0" style="stop-color:#ffffff;stop-opacity:1"></stop>
+					<stop offset="1" style="stop-color:#b98214;stop-opacity:1"></stop>
+				</linearGradient>
+				<linearGradient id="grad25-302" x1="0" y1="0" x2="1" y2="0">
+					<stop offset="0" style="stop-color:#ffffff;stop-opacity:1"></stop>
+					<stop offset="1" style="stop-color:#b98214;stop-opacity:1"></stop>
+				</linearGradient>
+				<linearGradient id="grad25-306" x1="0" y1="0" x2="1" y2="0">
+					<stop offset="0" style="stop-color:#552d0a;stop-opacity:1"></stop>
+					<stop offset="1" style="stop-color:#b98214;stop-opacity:1"></stop>
+				</linearGradient>
+				<linearGradient id="grad26-310" x1="0" y1="0" x2="1" y2="0">
+					<stop offset="0" style="stop-color:#552d0a;stop-opacity:1"></stop>
+					<stop offset="0.5" style="stop-color:#000000;stop-opacity:1"></stop>
+					<stop offset="1" style="stop-color:#552d0a;stop-opacity:1"></stop>
+				</linearGradient>
+				<linearGradient id="grad27-314" x1="1" y1="0" x2="0" y2="0">
+					<stop offset="0" style="stop-color:#552d0a;stop-opacity:1"></stop>
+					<stop offset="1" style="stop-color:#af640f;stop-opacity:1"></stop>
+				</linearGradient>
+				<linearGradient id="grad28-318" x1="0" y1="0" x2="0" y2="1">
+					<stop offset="0" style="stop-color:#c86414;stop-opacity:1"></stop>
+					<stop offset="1" style="stop-color:#af640f;stop-opacity:1"></stop>
+				</linearGradient>
+				<linearGradient id="grad29-325" x1="0" y1="0" x2="0" y2="1">
+					<stop offset="0" style="stop-color:#c86414;stop-opacity:1"></stop>
+					<stop offset="0.5" style="stop-color:#d7a519;stop-opacity:1"></stop>
+					<stop offset="1" style="stop-color:#c86414;stop-opacity:1"></stop>
+				</linearGradient>
+				<linearGradient id="grad29-335" x1="0" y1="0" x2="0" y2="1">
+					<stop offset="0" style="stop-color:#b98214;stop-opacity:1"></stop>
+					<stop offset="0.5" style="stop-color:#000000;stop-opacity:1"></stop>
+					<stop offset="1" style="stop-color:#b98214;stop-opacity:1"></stop>
+				</linearGradient>
+				<linearGradient id="grad25-339" x1="0" y1="0" x2="1" y2="0">
+					<stop offset="0" style="stop-color:#824b0f;stop-opacity:1"></stop>
+					<stop offset="1" style="stop-color:#b98214;stop-opacity:1"></stop>
+				</linearGradient>
+				<linearGradient id="grad30-725" x1="0" y1="1" x2="0" y2="0">
+					<stop offset="0" style="stop-color:#cdcdcd;stop-opacity:1"></stop>
+					<stop offset="1" style="stop-color:#0000ff;stop-opacity:1"></stop>
+				</linearGradient>
+				<linearGradient id="grad28-735" x1="0" y1="0" x2="0" y2="1">
+					<stop offset="0" style="stop-color:#cdcdcd;stop-opacity:1"></stop>
+					<stop offset="1" style="stop-color:#ffcc00;stop-opacity:1"></stop>
+				</linearGradient>
+				<linearGradient id="grad27-778" x1="1" y1="0" x2="0" y2="0">
+					<stop offset="0" style="stop-color:#000000;stop-opacity:1"></stop>
+					<stop offset="1" style="stop-color:#966414;stop-opacity:1"></stop>
+				</linearGradient>
+				<linearGradient id="grad30-782" x1="0" y1="1" x2="0" y2="0">
+					<stop offset="0" style="stop-color:#ffffff;stop-opacity:0.7"></stop>
+					<stop offset="1" style="stop-color:#64410f;stop-opacity:0.7"></stop>
+				</linearGradient>
+				<linearGradient id="grad30-786" x1="0" y1="1" x2="0" y2="0">
+					<stop offset="0" style="stop-color:#ffffff;stop-opacity:0.6"></stop>
+					<stop offset="1" style="stop-color:#64410f;stop-opacity:0.6"></stop>
+				</linearGradient>
+				<radialGradient id="grad40-790" cx="0.5" cy="0.5" r="0.5">
+					<stop offset="0" style="stop-color:#ffffff;stop-opacity:0.5"></stop>
+					<stop offset="1" style="stop-color:#64410f;stop-opacity:0.5"></stop>
+				</radialGradient>
+				<radialGradient id="grad40-794" cx="0.5" cy="0.5" r="0.5">
+					<stop offset="0" style="stop-color:#ffffff;stop-opacity:1"></stop>
+					<stop offset="1" style="stop-color:#64410f;stop-opacity:1"></stop>
+				</radialGradient>
+				<linearGradient id="grad28-801" x1="0" y1="0" x2="0" y2="1">
+					<stop offset="0" style="stop-color:#ffffff;stop-opacity:0.6"></stop>
+					<stop offset="1" style="stop-color:#64410f;stop-opacity:0.6"></stop>
+				</linearGradient>
+				<linearGradient id="grad28-805" x1="0" y1="0" x2="0" y2="1">
+					<stop offset="0" style="stop-color:#ffffff;stop-opacity:0.7"></stop>
+					<stop offset="1" style="stop-color:#64410f;stop-opacity:0.7"></stop>
+				</linearGradient>
+			</defs>
+			<g id="mainG">
+				<g id="shape2-3" transform="matrix(1,0,0,1,15.0236,-105.378)">
+								<ellipse cx="185.669" cy="409.606" rx="185.669" ry="185.669" class="st2"></ellipse>
+				</g>
+				<g id="group284-5" transform="matrix(1,0,0,1,254.116,-239.379)">
+								<g id="shape285-6" transform="matrix(0.9205048534524404,0.3907311284892737,-0.3907311284892737,0.9205048534524404,236.425,-24.1023)">
+										<path d="M19.11 561.8 L15.19 557.87 A51.8472 51.8472 -180 0 0 0.01 595.28 L5.56 595.28 A46.2922 46.2922 0 0 1 19.11
+									 561.8 Z" class="st3"></path>
+					</g>
+					<g id="shape286-8" transform="matrix(0.9205048534524404,0.3907311284892737,-0.3907311284892737,0.9205048534524404,222.394,8.96514)">
+										<path d="M19.11 591.35 A46.2922 46.2922 0 0 1 5.56 559.35 L0 559.35 A51.8472 51.8472 -180 0 0 15.18 595.28 L19.11
+									 591.35 Z" class="st3"></path>
+					</g>
+					<g id="shape287-10" transform="matrix(0.9205048534524404,0.3907311284892737,-0.3907311284892737,0.9205048534524404,300.247,42.0114)">
+										<path d="M3.93 595.28 A51.8472 51.8472 -180 0 0 19.11 559.35 L13.55 559.35 A46.2922 46.2922 0 0 1 -0 591.35 L3.93
+									 595.28 Z" class="st3"></path>
+					</g>
+					<g id="shape288-12" transform="matrix(0.9205048534524404,0.3907311284892737,-0.3907311284892737,0.9205048534524404,314.282,8.94608)">
+										<path d="M0 561.8 A46.2922 46.2922 0 0 1 13.55 595.28 L19.11 595.28 A51.8472 51.8472 -180 0 0 3.93 557.87 L0 561.8
+									 Z" class="st3"></path>
+					</g>
+					<g id="shape289-14" transform="matrix(0.9205048534524404,0.3907311284892737,-0.3907311284892737,0.9205048534524404,230.435,28.8749)">
+										<path d="M36.49 589.72 A46.2922 46.2922 0 0 1 3.93 576.16 L0 580.09 A51.8472 51.8472 -180 0 0 36.49 595.28 L36.49
+									 589.72 Z" class="st3"></path>
+					</g>
+					<g id="shape290-16" transform="matrix(0.9205048534524404,0.3907311284892737,-0.3907311284892737,0.9205048534524404,264.027,43.1343)">
+										<path d="M0 589.72 L0 595.28 A51.8472 51.8472 -180 0 0 36.83 580.09 L32.9 576.16 A46.2922 46.2922 0 0 1 -0 589.72
+									 Z" class="st3"></path>
+					</g>
+					<g id="shape291-18" transform="matrix(0.9205048534524404,0.3907311284892737,-0.3907311284892737,0.9205048534524404,297.075,-34.7227)">
+										<path d="M0 581.72 A46.2922 46.2922 0 0 1 32.9 595.28 L36.83 591.35 A51.8472 51.8472 -180 0 0 -0 576.16 L0 581.72
+									 Z" class="st4"></path>
+					</g>
+				</g>
+				<g id="group3-20" transform="matrix(1,0,0,1,36.9921,-55.7717)">
+								<g id="group4-21" transform="matrix(1,0,0,1,0,-346.394)">
+										<g id="group5-22" transform="matrix(-1.0,0.0,0.0,1.0,327.402,0.0)">
+												<g id="shape6-23" transform="matrix(1,0,0,1,58.1102,-58.9606)">
+														<path d="M0 531.5 L0 589.61 L5.67 595.28 L8.5 592.44 L4.25 588.19 L4.25 530.08 L0 531.5 Z" class="st5"></path>
+							</g>
+							<g id="shape7-25">
+														<path d="M58.11 472.54 L53.86 473.95 L48.19 476.79 L43.94 479.62 L41.95 481.61 L19.84 547.65 L0 595.28 L63.78
+											 536.31 L58.11 530.65 L58.11 472.54 Z" class="st6"></path>
+							</g>
+						</g>
+						<g id="group8-29">
+												<g id="shape9-30" transform="matrix(1,0,0,1,58.1102,-58.9606)">
+														<path d="M0 531.5 L0 589.61 L5.67 595.28 L8.5 592.44 L4.25 588.19 L4.25 530.08 L0 531.5 Z" class="st5"></path>
+							</g>
+							<g id="shape10-32">
+														<path d="M58.11 472.54 L53.86 473.95 L48.19 476.79 L43.94 479.62 L41.95 481.61 L19.84 547.65 L0 595.28 L63.78
+											 536.31 L58.11 530.65 L58.11 472.54 Z" class="st6"></path>
+							</g>
+						</g>
+						<g id="shape11-35" transform="matrix(1,0,0,1,60.2362,-103.748)">
+												<rect x="0" y="586.772" width="206.929" height="8.50394" class="st7"></rect>
+						</g>
+					</g>
+					<g id="group12-39" transform="matrix(1.0,0.0,0.0,-1.0,0.0,1066.39)">
+										<g id="group13-40" transform="matrix(-1.0,0.0,0.0,1.0,327.402,0.0)">
+												<g id="shape14-41" transform="matrix(1,0,0,1,58.1102,-58.9606)">
+														<path d="M0 531.5 L0 589.61 L5.67 595.28 L8.5 592.44 L4.25 588.19 L4.25 530.08 L0 531.5 Z" class="st5"></path>
+							</g>
+							<g id="shape15-43">
+														<path d="M58.11 472.54 L53.86 473.95 L48.19 476.79 L43.94 479.62 L41.95 481.61 L19.84 547.65 L0 595.28 L63.78
+											 536.31 L58.11 530.65 L58.11 472.54 Z" class="st6"></path>
+							</g>
+						</g>
+						<g id="group16-46">
+												<g id="shape17-47" transform="matrix(1,0,0,1,58.1102,-58.9606)">
+														<path d="M0 531.5 L0 589.61 L5.67 595.28 L8.5 592.44 L4.25 588.19 L4.25 530.08 L0 531.5 Z" class="st5"></path>
+							</g>
+							<g id="shape18-49">
+														<path d="M58.11 472.54 L53.86 473.95 L48.19 476.79 L43.94 479.62 L41.95 481.61 L19.84 547.65 L0 595.28 L63.78
+											 536.31 L58.11 530.65 L58.11 472.54 Z" class="st6"></path>
+							</g>
+						</g>
+						<g id="shape19-52" transform="matrix(1,0,0,1,60.2362,-103.748)">
+												<rect x="0" y="586.772" width="206.929" height="8.50394" class="st7"></rect>
+						</g>
+					</g>
+				</g>
+				<g id="group20-55" transform="matrix(1,0,0,1,21.5433,-111.047)">
+								<g id="shape21-56" transform="matrix(1,0,0,1,345.452,-196.928)">
+										<path d="M-0 577.69 A170.079 170.079 0 0 1 2.78 595.28 L11.24 594.39 A178.583 178.583 -180 0 0 8.32 575.92 L0 577.69
+									 Z" class="st8"></path>
+					</g>
+					<g id="shape22-58" transform="matrix(1,0,0,1,1.48586,-142.02)">
+										<path d="M11.24 593.51 A170.079 170.079 0 0 1 8.46 575.92 L0 576.81 A178.583 178.583 -180 0 0 2.92 595.28 L11.24
+									 593.51 Z" class="st8"></path>
+					</g>
+					<g id="shape23-60" transform="matrix(1,0,0,1,340.845,-214.511)">
+										<path d="M0 578.08 A170.079 170.079 0 0 1 4.61 595.28 L12.93 593.51 A178.583 178.583 -180 0 0 8.09 575.45 L0 578.08
+									 Z" class="st8"></path>
+					</g>
+					<g id="shape24-62" transform="matrix(1,0,0,1,4.41002,-123.965)">
+										<path d="M12.93 592.65 A170.079 170.079 0 0 1 8.32 575.45 L0 577.22 A178.583 178.583 -180 0 0 4.84 595.28 L12.93
+									 592.65 Z" class="st8"></path>
+					</g>
+					<g id="shape25-64" transform="matrix(1,0,0,1,334.465,-231.707)">
+										<path d="M-0 578.66 A170.079 170.079 0 0 1 6.38 595.28 L14.47 592.65 A178.583 178.583 -180 0 0 7.77 575.2 L0 578.66
+									 Z" class="st8"></path>
+					</g>
+					<g id="shape26-66" transform="matrix(1,0,0,1,9.24802,-106.513)">
+										<path d="M14.47 591.82 A170.079 170.079 0 0 1 8.09 575.2 L0 577.82 A178.583 178.583 -180 0 0 6.7 595.28 L14.47 591.82
+									 Z" class="st8"></path>
+					</g>
+					<g id="shape27-68" transform="matrix(1,0,0,1,326.383,-248.327)">
+										<path d="M0 579.41 A170.079 170.079 0 0 1 8.08 595.28 L15.85 591.82 A178.583 178.583 -180 0 0 7.36 575.16 L0 579.41
+									 Z" class="st8"></path>
+					</g>
+					<g id="shape28-70" transform="matrix(1,0,0,1,15.9468,-89.8583)">
+										<path d="M15.85 591.02 A170.079 170.079 0 0 1 7.77 575.16 L0 578.62 A178.583 178.583 -180 0 0 8.49 595.28 L15.85
+									 591.02 Z" class="st8"></path>
+					</g>
+					<g id="shape29-72" transform="matrix(1,0,0,1,316.687,-264.189)">
+										<path d="M0 580.35 A170.079 170.079 0 0 1 9.7 595.28 L17.06 591.02 A178.583 178.583 -180 0 0 6.88 575.35 L0 580.35
+									 Z" class="st8"></path>
+					</g>
+					<g id="shape30-74" transform="matrix(1,0,0,1,24.4331,-74.1813)">
+										<path d="M17.06 590.28 A170.079 170.079 0 0 1 7.36 575.35 L0 579.6 A178.583 178.583 -180 0 0 10.18 595.28 L17.06
+									 590.28 Z" class="st8"></path>
+					</g>
+					<g id="shape31-76" transform="matrix(1,0,0,1,305.483,-279.119)">
+										<path d="M0 581.44 A170.079 170.079 0 0 1 11.2 595.28 L18.08 590.28 A178.583 178.583 -180 0 0 6.32 575.75 L0 581.44
+									 Z" class="st8"></path>
+					</g>
+					<g id="shape32-78" transform="matrix(1,0,0,1,34.6138,-59.6545)">
+										<path d="M18.08 589.59 A170.079 170.079 0 0 1 6.88 575.75 L0 580.75 A178.583 178.583 -180 0 0 11.76 595.28 L18.08
+									 589.59 Z" class="st8"></path>
+					</g>
+					<g id="shape33-80" transform="matrix(1,0,0,1,292.895,-292.954)">
+										<path d="M0 582.69 A170.079 170.079 0 0 1 12.59 595.28 L18.91 589.59 A178.583 178.583 -180 0 0 5.69 576.37 L0 582.69
+									 Z" class="st8"></path>
+					</g>
+					<g id="shape34-82" transform="matrix(1,0,0,1,46.3774,-46.4368)">
+										<path d="M18.91 588.96 A170.079 170.079 0 0 1 6.32 576.37 L0 582.06 A178.583 178.583 -180 0 0 13.22 595.28 L18.91
+									 588.96 Z" class="st8"></path>
+					</g>
+					<g id="shape35-84" transform="matrix(1,0,0,1,279.06,-305.543)">
+										<path d="M0 584.07 A170.079 170.079 0 0 1 13.84 595.28 L19.53 588.96 A178.583 178.583 -180 0 0 5 577.19 L0 584.07
+									 Z" class="st8"></path>
+					</g>
+					<g id="shape36-86" transform="matrix(1,0,0,1,59.5951,-34.6732)">
+										<path d="M19.53 588.4 A170.079 170.079 0 0 1 5.69 577.19 L0 583.51 A178.583 178.583 -180 0 0 14.53 595.28 L19.53
+									 588.4 Z" class="st8"></path>
+					</g>
+					<g id="shape37-88" transform="matrix(1,0,0,1,264.13,-316.746)">
+										<path d="M0 585.58 A170.079 170.079 0 0 1 14.93 595.28 L19.93 588.4 A178.583 178.583 -180 0 0 4.25 578.22 L0 585.58
+									 Z" class="st8"></path>
+					</g>
+					<g id="shape38-90" transform="matrix(1,0,0,1,74.122,-24.4925)">
+										<path d="M19.93 587.91 A170.079 170.079 0 0 1 5 578.22 L0 585.09 A178.583 178.583 -180 0 0 15.68 595.28 L19.93 587.91
+									 Z" class="st8"></path>
+					</g>
+					<g id="shape39-92" transform="matrix(1,0,0,1,248.267,-326.442)">
+										<path d="M0 587.19 A170.079 170.079 0 0 1 15.86 595.28 L20.11 587.91 A178.583 178.583 -180 0 0 3.46 579.42 L0 587.19
+									 Z" class="st8"></path>
+					</g>
+					<g id="shape40-94" transform="matrix(1,0,0,1,89.7989,-16.0062)">
+										<path d="M20.11 587.51 A170.079 170.079 0 0 1 4.25 579.42 L0 586.79 A178.583 178.583 -180 0 0 16.66 595.28 L20.11
+									 587.51 Z" class="st8"></path>
+					</g>
+					<g id="shape41-96" transform="matrix(1,0,0,1,231.647,-334.524)">
+										<path d="M-0 588.9 A170.079 170.079 0 0 1 16.62 595.28 L20.08 587.51 A178.583 178.583 -180 0 0 2.63 580.81 L0 588.9
+									 Z" class="st8"></path>
+					</g>
+					<g id="shape42-98" transform="matrix(1,0,0,1,106.454,-9.30739)">
+										<path d="M20.08 587.19 A170.079 170.079 0 0 1 3.46 580.81 L0 588.58 A178.583 178.583 -180 0 0 17.45 595.28 L20.08
+									 587.19 Z" class="st8"></path>
+					</g>
+					<g id="shape43-100" transform="matrix(1,0,0,1,214.452,-340.904)">
+										<path d="M0 590.67 A170.079 170.079 0 0 1 17.2 595.28 L19.82 587.19 A178.583 178.583 -180 0 0 1.77 582.35 L0 590.67
+									 Z" class="st8"></path>
+					</g>
+					<g id="shape44-102" transform="matrix(1,0,0,1,123.905,-4.46939)">
+										<path d="M19.82 586.96 A170.079 170.079 0 0 1 2.63 582.35 L0 590.44 A178.583 178.583 -180 0 0 18.06 595.28 L19.82
+									 586.96 Z" class="st8"></path>
+					</g>
+					<g id="shape45-104" transform="matrix(1,0,0,1,196.868,-345.512)">
+										<path d="M-0 592.49 A170.079 170.079 0 0 1 17.58 595.28 L19.35 586.96 A178.583 178.583 -180 0 0 0.89 584.03 L0 592.49
+									 Z" class="st8"></path>
+					</g>
+					<g id="shape46-106" transform="matrix(1,0,0,1,179.09,-348.297)">
+										<path d="M17.78 595.28 L18.67 586.82 A178.583 178.583 -180 0 0 0 585.84 L0 594.34 A170.079 170.079 0 0 1 17.78 595.28
+									 Z" class="st8"></path>
+					</g>
+					<g id="shape47-108" transform="matrix(1,0,0,1,141.961,-1.54522)">
+										<path d="M19.35 586.82 A170.079 170.079 0 0 1 1.77 584.03 L0 592.35 A178.583 178.583 -180 0 0 18.46 595.28 L19.35
+									 586.82 Z" class="st8"></path>
+					</g>
+					<g id="shape48-110" transform="matrix(1,0,0,1,160.423,-0.566929)">
+										<path d="M0.89 585.84 L0 594.3 A178.583 178.583 -180 0 0 18.67 595.28 L18.67 586.77 A170.079 170.079 0 0 1 0.89 585.84
+									 Z" class="st8"></path>
+					</g>
+					<g id="shape49-112" transform="matrix(1,0,0,1,0.507565,-160.483)">
+										<path d="M8.5 576.61 L0 576.61 A178.583 178.583 -180 0 0 0.98 595.28 L9.44 594.39 A170.079 170.079 0 0 1 8.5 576.61
+									 Z" class="st8"></path>
+					</g>
+					<g id="shape50-114" transform="matrix(1,0,0,1,348.237,-179.15)">
+										<path d="M9.44 595.28 A178.583 178.583 -180 0 0 8.46 576.61 L0 577.5 A170.079 170.079 0 0 1 0.93 595.28 L9.44 595.28
+									 Z" class="st8"></path>
+					</g>
+					<g id="shape51-116" transform="matrix(1,0,0,1,0.507565,-179.15)">
+										<path d="M9.44 577.5 L0.98 576.61 A178.583 178.583 -180 0 0 0 595.28 L8.5 595.28 A170.079 170.079 0 0 1 9.44 577.5
+									 Z" class="st8"></path>
+					</g>
+					<g id="shape52-118" transform="matrix(1,0,0,1,348.237,-160.483)">
+										<path d="M8.46 595.28 A178.583 178.583 -180 0 0 9.44 576.61 L0.93 576.61 A170.079 170.079 0 0 1 0 594.39 L8.46 595.28
+									 Z" class="st8"></path>
+					</g>
+					<g id="shape53-120" transform="matrix(1,0,0,1,1.48586,-196.928)">
+										<path d="M11.24 577.69 L2.92 575.92 A178.583 178.583 -180 0 0 0 594.39 L8.46 595.28 A170.079 170.079 0 0 1 11.24
+									 577.69 Z" class="st8"></path>
+					</g>
+					<g id="shape54-122" transform="matrix(1,0,0,1,345.452,-142.02)">
+										<path d="M8.32 595.28 A178.583 178.583 -180 0 0 11.24 576.81 L2.78 575.92 A170.079 170.079 0 0 1 -0 593.51 L8.32
+									 595.28 Z" class="st8"></path>
+					</g>
+					<g id="shape55-124" transform="matrix(1,0,0,1,4.41002,-214.511)">
+										<path d="M12.93 578.08 L4.84 575.45 A178.583 178.583 -180 0 0 0 593.51 L8.32 595.28 A170.079 170.079 0 0 1 12.93
+									 578.08 Z" class="st8"></path>
+					</g>
+					<g id="shape56-126" transform="matrix(1,0,0,1,340.845,-123.965)">
+										<path d="M8.09 595.28 A178.583 178.583 -180 0 0 12.93 577.22 L4.61 575.45 A170.079 170.079 0 0 1 0 592.65 L8.09 595.28
+									 Z" class="st8"></path>
+					</g>
+					<g id="shape57-128" transform="matrix(1,0,0,1,9.24802,-231.707)">
+										<path d="M14.47 578.66 L6.7 575.2 A178.583 178.583 -180 0 0 0 592.65 L8.09 595.28 A170.079 170.079 0 0 1 14.47 578.66
+									 Z" class="st8"></path>
+					</g>
+					<g id="shape58-130" transform="matrix(1,0,0,1,334.465,-106.513)">
+										<path d="M7.77 595.28 A178.583 178.583 -180 0 0 14.47 577.82 L6.38 575.2 A170.079 170.079 0 0 1 -0 591.82 L7.77 595.28
+									 Z" class="st8"></path>
+					</g>
+					<g id="shape59-132" transform="matrix(1,0,0,1,15.9468,-248.327)">
+										<path d="M15.85 579.41 L8.49 575.16 A178.583 178.583 -180 0 0 0 591.82 L7.77 595.28 A170.079 170.079 0 0 1 15.85
+									 579.41 Z" class="st8"></path>
+					</g>
+					<g id="shape60-134" transform="matrix(1,0,0,1,326.383,-89.8583)">
+										<path d="M7.36 595.28 A178.583 178.583 -180 0 0 15.85 578.62 L8.08 575.16 A170.079 170.079 0 0 1 0 591.02 L7.36 595.28
+									 Z" class="st8"></path>
+					</g>
+					<g id="shape61-136" transform="matrix(1,0,0,1,24.4331,-264.189)">
+										<path d="M17.06 580.35 L10.18 575.35 A178.583 178.583 -180 0 0 0 591.02 L7.36 595.28 A170.079 170.079 0 0 1 17.06
+									 580.35 Z" class="st8"></path>
+					</g>
+					<g id="shape62-138" transform="matrix(1,0,0,1,316.687,-74.1813)">
+										<path d="M6.88 595.28 A178.583 178.583 -180 0 0 17.06 579.6 L9.7 575.35 A170.079 170.079 0 0 1 0 590.28 L6.88 595.28
+									 Z" class="st8"></path>
+					</g>
+					<g id="shape63-140" transform="matrix(1,0,0,1,34.6138,-279.119)">
+										<path d="M18.08 581.44 L11.76 575.75 A178.583 178.583 -180 0 0 0 590.28 L6.88 595.28 A170.079 170.079 0 0 1 18.08
+									 581.44 Z" class="st8"></path>
+					</g>
+					<g id="shape64-142" transform="matrix(1,0,0,1,305.483,-59.6545)">
+										<path d="M6.32 595.28 A178.583 178.583 -180 0 0 18.08 580.75 L11.2 575.75 A170.079 170.079 0 0 1 0 589.59 L6.32 595.28
+									 Z" class="st8"></path>
+					</g>
+					<g id="shape65-144" transform="matrix(1,0,0,1,46.3774,-292.954)">
+										<path d="M18.91 582.69 L13.22 576.37 A178.583 178.583 -180 0 0 0 589.59 L6.32 595.28 A170.079 170.079 0 0 1 18.91
+									 582.69 Z" class="st8"></path>
+					</g>
+					<g id="shape66-146" transform="matrix(1,0,0,1,292.895,-46.4368)">
+										<path d="M5.69 595.28 A178.583 178.583 -180 0 0 18.91 582.06 L12.59 576.37 A170.079 170.079 0 0 1 0 588.96 L5.69
+									 595.28 Z" class="st8"></path>
+					</g>
+					<g id="shape67-148" transform="matrix(1,0,0,1,59.5951,-305.543)">
+										<path d="M19.53 584.07 L14.53 577.19 A178.583 178.583 -180 0 0 0 588.96 L5.69 595.28 A170.079 170.079 0 0 1 19.53
+									 584.07 Z" class="st8"></path>
+					</g>
+					<g id="shape68-150" transform="matrix(1,0,0,1,279.06,-34.6732)">
+										<path d="M5 595.28 A178.583 178.583 -180 0 0 19.53 583.51 L13.84 577.19 A170.079 170.079 0 0 1 0 588.4 L5 595.28 Z" class="st8"></path>
+					</g>
+					<g id="shape69-152" transform="matrix(1,0,0,1,74.122,-316.746)">
+										<path d="M19.93 585.58 L15.68 578.22 A178.583 178.583 -180 0 0 0 588.4 L5 595.28 A170.079 170.079 0 0 1 19.93 585.58
+									 Z" class="st8"></path>
+					</g>
+					<g id="shape70-154" transform="matrix(1,0,0,1,264.13,-24.4925)">
+										<path d="M4.25 595.28 A178.583 178.583 -180 0 0 19.93 585.09 L14.93 578.22 A170.079 170.079 0 0 1 0 587.91 L4.25
+									 595.28 Z" class="st8"></path>
+					</g>
+					<g id="shape71-156" transform="matrix(1,0,0,1,89.7989,-326.442)">
+										<path d="M20.11 587.19 L16.66 579.42 A178.583 178.583 -180 0 0 0 587.91 L4.25 595.28 A170.079 170.079 0 0 1 20.11
+									 587.19 Z" class="st8"></path>
+					</g>
+					<g id="shape72-158" transform="matrix(1,0,0,1,248.267,-16.0062)">
+										<path d="M3.46 595.28 A178.583 178.583 -180 0 0 20.11 586.79 L15.86 579.42 A170.079 170.079 0 0 1 -0 587.51 L3.46
+									 595.28 Z" class="st8"></path>
+					</g>
+					<g id="shape73-160" transform="matrix(1,0,0,1,106.454,-334.524)">
+										<path d="M20.08 588.9 L17.45 580.81 A178.583 178.583 -180 0 0 0 587.51 L3.46 595.28 A170.079 170.079 0 0 1 20.08
+									 588.9 Z" class="st8"></path>
+					</g>
+					<g id="shape74-162" transform="matrix(1,0,0,1,231.647,-9.30739)">
+										<path d="M2.63 595.28 A178.583 178.583 -180 0 0 20.08 588.58 L16.62 580.81 A170.079 170.079 0 0 1 -0 587.19 L2.63
+									 595.28 Z" class="st8"></path>
+					</g>
+					<g id="shape75-164" transform="matrix(1,0,0,1,123.905,-340.904)">
+										<path d="M19.82 590.67 L18.06 582.35 A178.583 178.583 -180 0 0 0 587.19 L2.63 595.28 A170.079 170.079 0 0 1 19.82
+									 590.67 Z" class="st8"></path>
+					</g>
+					<g id="shape76-166" transform="matrix(1,0,0,1,214.452,-4.46939)">
+										<path d="M1.77 595.28 A178.583 178.583 -180 0 0 19.82 590.44 L17.2 582.35 A170.079 170.079 0 0 1 0 586.96 L1.77 595.28
+									 Z" class="st8"></path>
+					</g>
+					<g id="shape77-168" transform="matrix(1,0,0,1,179.09,-0.566929)">
+										<path d="M17.78 585.84 A170.079 170.079 0 0 1 -0 586.77 L0 595.28 A178.583 178.583 -180 0 0 18.67 594.3 L17.78 585.84
+									 Z" class="st8"></path>
+					</g>
+					<g id="shape78-170" transform="matrix(1,0,0,1,196.868,-1.54522)">
+										<path d="M0 586.82 L0.89 595.28 A178.583 178.583 -180 0 0 19.35 592.35 L17.58 584.03 A170.079 170.079 0 0 1 0 586.82
+									 Z" class="st8"></path>
+					</g>
+					<g id="shape79-172" transform="matrix(1,0,0,1,160.423,-348.297)">
+										<path d="M0.89 595.28 A170.079 170.079 0 0 1 18.67 594.34 L18.67 585.84 A178.583 178.583 -180 0 0 0 586.82 L0.89
+									 595.28 Z" class="st8"></path>
+					</g>
+					<g id="shape80-174" transform="matrix(1,0,0,1,141.961,-345.512)">
+										<path d="M19.35 592.49 L18.46 584.03 A178.583 178.583 -180 0 0 -0 586.96 L1.77 595.28 A170.079 170.079 0 0 1 19.35
+									 592.49 Z" class="st8"></path>
+					</g>
+					<g id="shape81-176" transform="matrix(1,0,0,1,177.165,-348.661)">
+										<path d="M0 595.28 L4.25 595.28 L4.25 585.64 L0 585.64 L0 595.28 ZM1.01 593.9 L3.24 593.9 L3.24 587.01 L1.01 587.01
+									 L1.01 593.9 Z" class="st9"></path>
+					</g>
+					<g id="shape82-178" transform="matrix(1,0,0,1,177.165,0)">
+										<path d="M0 595.28 L4.25 595.28 L4.25 585.64 L0 585.64 L0 595.28 ZM1.01 593.9 L3.24 593.9 L3.24 587.01 L1.01 587.01
+									 L1.01 593.9 Z" class="st9"></path>
+					</g>
+					<g id="shape83-180" transform="matrix(6.123233995736766E-17,1.0,-1.0,6.123233995736766E-17,595.276,414.0)">
+										<path d="M0 595.28 L4.25 595.28 L4.25 585.64 L0 585.64 L0 595.28 ZM1.01 593.9 L3.24 593.9 L3.24 587.01 L1.01 587.01
+									 L1.01 593.9 Z" class="st9"></path>
+					</g>
+					<g id="shape84-182" transform="matrix(6.123233995736766E-17,1.0,-1.0,6.123233995736766E-17,943.937,414.0)">
+										<path d="M0 595.28 L4.25 595.28 L4.25 585.64 L0 585.64 L0 595.28 ZM1.01 593.9 L3.24 593.9 L3.24 587.01 L1.01 587.01
+									 L1.01 593.9 Z" class="st9"></path>
+					</g>
+					<g id="shape85-184" transform="matrix(0.8660254037844387,0.49999999999999994,-0.49999999999999994,0.8660254037844387,559.704,-247.225)">
+										<path d="M0 595.28 L4.25 595.28 L4.25 585.64 L0 585.64 L0 595.28 ZM1.01 593.9 L3.24 593.9 L3.24 587.01 L1.01 587.01
+									 L1.01 593.9 Z" class="st9"></path>
+					</g>
+					<g id="shape86-186" transform="matrix(0.5000000000000001,0.8660254037844386,-0.8660254037844386,0.5000000000000001,840.39,31.8925)">
+										<path d="M0 595.28 L4.25 595.28 L4.25 585.64 L0 585.64 L0 595.28 ZM1.01 593.9 L3.24 593.9 L3.24 587.01 L1.01 587.01
+									 L1.01 593.9 Z" class="st9"></path>
+					</g>
+					<g id="shape87-188" transform="matrix(0.8660254037844387,-0.49999999999999994,-0.49999999999999994,-0.8660254037844387,559.631,1079.56)">
+										<path d="M0 595.28 L4.25 595.28 L4.25 585.64 L0 585.64 L0 595.28 ZM1.01 593.9 L3.24 593.9 L3.24 587.01 L1.01 587.01
+									 L1.01 593.9 Z" class="st9"></path>
+					</g>
+					<g id="shape88-190" transform="matrix(0.5000000000000001,-0.8660254037844386,-0.8660254037844386,-0.5000000000000001,840.318,800.438)">
+										<path d="M0 595.28 L4.25 595.28 L4.25 585.64 L0 585.64 L0 595.28 ZM1.01 593.9 L3.24 593.9 L3.24 587.01 L1.01 587.01
+									 L1.01 593.9 Z" class="st9"></path>
+					</g>
+					<g id="shape89-192" transform="matrix(-0.8660254037844387,0.49999999999999994,0.49999999999999994,0.8660254037844387,-201.51,-247.264)">
+										<path d="M0 595.28 L4.25 595.28 L4.25 585.64 L0 585.64 L0 595.28 ZM1.01 593.9 L3.24 593.9 L3.24 587.01 L1.01 587.01
+									 L1.01 593.9 Z" class="st9"></path>
+					</g>
+					<g id="shape90-194" transform="matrix(-0.5000000000000001,0.8660254037844386,0.8660254037844386,0.5000000000000001,-482.196,31.8532)">
+										<path d="M0 595.28 L4.25 595.28 L4.25 585.64 L0 585.64 L0 595.28 ZM1.01 593.9 L3.24 593.9 L3.24 587.01 L1.01 587.01
+									 L1.01 593.9 Z" class="st9"></path>
+					</g>
+					<g id="shape91-196" transform="matrix(-0.8660254037844387,-0.49999999999999994,0.49999999999999994,-0.8660254037844387,-201.438,1079.52)">
+										<path d="M0 595.28 L4.25 595.28 L4.25 585.64 L0 585.64 L0 595.28 ZM1.01 593.9 L3.24 593.9 L3.24 587.01 L1.01 587.01
+									 L1.01 593.9 Z" class="st9"></path>
+					</g>
+					<g id="shape92-198" transform="matrix(-0.4999999999999998,-0.8660254037844387,0.8660254037844387,-0.4999999999999998,-482.124,800.399)">
+										<path d="M0 595.28 L4.25 595.28 L4.25 585.64 L0 585.64 L0 595.28 ZM1.01 593.9 L3.24 593.9 L3.24 587.01 L1.01 587.01
+									 L1.01 593.9 Z" class="st9"></path>
+					</g>
+				</g>
+				<g id="group93-200" transform="matrix(1,0,0,1,2.26772,-92.622)">
+								<g id="shape94-201" transform="matrix(1,0,0,1,112.18,-8.35914)">
+										<path d="M0 574.42 L3.32 580.78 A194.173 194.173 -180 0 0 46.52 595.28 L43.96 590.36 A189.921 189.921 0 0 1 -0 574.42
+									 Z" class="st10"></path>
+					</g>
+					<g id="shape95-207" transform="matrix(1,0,0,1,156.139,-4.25197)">
+										<path d="M79.5 587.34 A189.921 189.921 0 0 1 -0 586.26 L2.56 591.17 A194.173 194.173 -180 0 0 81.55 591.27 L79.5
+									 587.34 Z" class="st11"></path>
+					</g>
+					<g id="shape96-209" transform="matrix(1,0,0,1,235.639,-8.26224)">
+										<path d="M43.93 576.83 A189.921 189.921 0 0 1 0 591.35 L2.05 595.28 A194.173 194.173 -180 0 0 45.9 580.6 L43.93 576.83
+									 Z" class="st12"></path>
+					</g>
+					<g id="shape97-213" transform="matrix(1,0,0,1,279.568,-22.9371)">
+										<path d="M0 591.5 L1.97 595.28 A194.173 194.173 -180 0 0 51.01 562.06 L46.6 560.33 A189.921 189.921 0 0 1 -0 591.5
+									 Z" class="st13"></path>
+					</g>
+					<g id="shape98-217" transform="matrix(1,0,0,1,322.314,-56.1572)">
+										<path d="M-0 309.06 A189.921 189.921 0 0 1 3.86 593.55 L8.26 595.28 A194.173 194.173 -180 0 0 3.76 306.69 L0 309.06
+									 Z" class="st14"></path>
+					</g>
+					<g id="shape99-221" transform="matrix(1,0,0,1,288.882,-342.376)">
+										<path d="M33.43 595.28 L37.19 592.91 A194.173 194.173 -180 0 0 4.11 569.64 L0 572.23 A189.921 189.921 0 0 1 33.43
+									 595.28 Z" class="st15"></path>
+					</g>
+					<g id="shape100-225" transform="matrix(1,0,0,1,277.601,-26.7104)">
+										<path d="M0 591.5 L1.97 595.28 A189.921 189.921 -180 0 0 48.57 564.1 L44.14 562.36 A185.669 185.669 0 0 1 0 591.5
+									 Z" class="st16"></path>
+					</g>
+					<g id="shape101-231" transform="matrix(1,0,0,1,233.59,-12.1856)">
+										<path d="M0 591.34 L2.05 595.28 A189.921 189.921 -180 0 0 45.98 580.75 L44.01 576.98 A185.669 185.669 0 0 1 0 591.34
+									 Z" class="st17"></path>
+					</g>
+					<g id="shape102-235" transform="matrix(1,0,0,1,153.536,-8.50394)">
+										<path d="M0 585.52 L2.6 590.51 A189.921 189.921 -180 0 0 82.1 591.59 L80.05 587.66 A185.669 185.669 0 0 1 -0 585.52
+									 Z" class="st1"></path>
+					</g>
+					<g id="shape103-237" transform="matrix(1,0,0,1,108.713,-13.2713)">
+										<path d="M0 572.68 L3.47 579.33 A189.921 189.921 -180 0 0 47.43 595.28 L44.82 590.28 A185.669 185.669 0 0 1 0 572.68
+									 Z" class="st18"></path>
+					</g>
+					<g id="shape104-240" transform="matrix(1,0,0,1,33.4071,-29.2155)">
+										<path d="M3.6 517.81 L0 520.08 A189.921 189.921 -180 0 0 78.77 595.28 L75.31 588.62 A185.669 185.669 0 0 1 3.6 517.81
+									 Z" class="st19"></path>
+					</g>
+					<g id="shape105-244" transform="matrix(1,0,0,1,8.50394,-104.409)">
+										<path d="M14.81 439.54 L11.49 436.21 A189.921 189.921 -180 0 0 24.9 595.28 L28.5 593.01 A185.669 185.669 0 0 1 14.81
+									 439.54 Z" class="st20"></path>
+					</g>
+					<g id="shape106-248" transform="matrix(1,0,0,1,19.9909,-260.149)">
+										<path d="M28.03 548.13 L25.84 543.92 A189.921 189.921 -180 0 0 0 591.95 L3.32 595.28 A185.669 185.669 0 0 1 28.03
+									 548.13 Z" class="st21"></path>
+					</g>
+					<g id="shape107-252" transform="matrix(1,0,0,1,45.8334,-307.296)">
+										<path d="M54.87 546.27 L52.9 542.49 A189.921 189.921 -180 0 0 0 591.07 L2.19 595.28 A185.669 185.669 0 0 1 54.87
+									 546.27 Z" class="st22"></path>
+					</g>
+					<g id="shape108-256" transform="matrix(1,0,0,1,98.7343,-356.298)">
+										<path d="M38.69 577.79 L36.7 573.98 A189.921 189.921 -180 0 0 0 591.5 L1.97 595.28 A185.669 185.669 0 0 1 38.69 577.79
+									 Z" class="st23"></path>
+					</g>
+					<g id="shape109-260" transform="matrix(1,0,0,1,318.548,-57.8869)">
+										<path d="M0 313.16 A185.669 185.669 0 0 1 3.2 593.54 L7.62 595.28 A189.921 189.921 -180 0 0 3.77 310.79 L0 313.16
+									 Z" class="st24"></path>
+					</g>
+					<g id="shape110-264" transform="matrix(1,0,0,1,284.742,-340.001)">
+										<path d="M0 572.47 A185.669 185.669 0 0 1 33.81 595.28 L37.57 592.9 A189.921 189.921 -180 0 0 4.14 569.86 L0 572.47
+									 Z" class="st25"></path>
+					</g>
+					<g id="shape111-268" transform="matrix(1,0,0,1,135.439,-362.81)">
+										<path d="M149.3 595.28 L153.44 592.66 A189.921 189.921 -180 0 0 0 580.49 L1.99 584.3 A185.669 185.669 0 0 1 149.3
+									 595.28 Z" class="st26"></path>
+					</g>
+					<g id="shape112-272" transform="matrix(1,0,0,1,12.7559,-12.7559)">
+										<path d="M271.99 245.22 A185.669 185.669 -180 0 0 124.67 234.24 A185.669 185.669 -180 0 0 87.95 251.73 A185.669 185.669
+									 -180 0 0 35.27 300.74 A185.669 185.669 -180 0 0 10.56 347.88 A185.669 185.669 -180 0 0 24.25 501.35
+									 A185.669 185.669 -180 0 0 95.96 572.16 A185.669 185.669 -180 0 0 140.78 589.77 A185.669 185.669 -180
+									 0 0 220.83 591.92 A185.669 185.669 -180 0 0 264.84 577.55 A185.669 185.669 -180 0 0 308.99 548.41 A185.669
+									 185.669 -180 0 0 305.79 268.03 A185.669 185.669 -180 0 0 271.99 245.22 Z" class="st3"></path>
+					</g>
+					<g id="shape113-274" transform="matrix(1,0,0,1,29.8071,-22.8509)">
+										<path d="M0 515.99 A194.173 194.173 -180 0 0 85.69 595.28 L82.37 588.91 A189.921 189.921 0 0 1 3.6 513.72 L0 515.99
+									 Z" class="st27"></path>
+					</g>
+					<g id="shape114-278" transform="matrix(1,0,0,1,16.6822,-263.474)">
+										<path d="M0 591.97 L3.31 595.28 A189.921 189.921 0 0 1 29.15 547.25 L26.97 543.07 A194.173 194.173 -180 0 0 0 591.97
+									 Z" class="st28"></path>
+					</g>
+					<g id="shape115-282" transform="matrix(1,0,0,1,4.25197,-102.138)">
+										<path d="M12.43 430.63 A194.173 194.173 -180 0 0 25.56 595.28 L29.16 593.01 A189.921 189.921 0 0 1 15.74 433.94 L12.43
+									 430.63 Z" class="st29"></path>
+					</g>
+					<g id="shape116-286" transform="matrix(1,0,0,1,43.6537,-311.5)">
+										<path d="M53.11 542.92 A194.173 194.173 -180 0 0 0 591.09 L2.18 595.28 A189.921 189.921 0 0 1 55.08 546.7 L53.11
+									 542.92 Z" class="st30"></path>
+					</g>
+					<g id="shape117-290" transform="matrix(1,0,0,1,133.454,-365.421)">
+										<path d="M0 579.29 L1.99 583.1 A189.921 189.921 0 0 1 155.43 595.28 L159.54 592.68 A194.173 194.173 -180 0 0 0 579.29
+									 Z" class="st26"></path>
+					</g>
+					<g id="shape118-293" transform="matrix(1,0,0,1,96.7639,-360.079)">
+										<path d="M36.69 573.95 A194.173 194.173 -180 0 0 0 591.5 L1.97 595.28 A189.921 189.921 0 0 1 38.67 577.76 L36.69
+									 573.95 Z" class="st31"></path>
+					</g>
+					<g id="shape119-297" transform="matrix(1,0,0,1,281.535,-19.164)">
+										<path d="M1.97 595.28 A198.425 198.425 -180 0 0 53.42 560 L49.04 558.28 A194.173 194.173 0 0 1 0 591.5 L1.97 595.28
+									 Z" class="st32"></path>
+					</g>
+					<g id="shape120-303" transform="matrix(1,0,0,1,237.685,-4.34583)">
+										<path d="M2.04 595.28 A198.425 198.425 -180 0 0 45.82 580.46 L43.85 576.68 A194.173 194.173 0 0 1 0 591.36 L2.04
+									 595.28 Z" class="st33"></path>
+					</g>
+					<g id="shape121-307" transform="matrix(1,0,0,1,158.699,0)">
+										<path d="M2.52 591.76 A198.425 198.425 -180 0 0 81.03 590.93 L78.99 587.01 A194.173 194.173 0 0 1 -0 586.92 L2.52
+									 591.76 Z" class="st34"></path>
+					</g>
+					<g id="shape122-311" transform="matrix(1,0,0,1,115.498,-3.51875)">
+										<path d="M3.19 582.07 A198.425 198.425 -180 0 0 45.72 595.28 L43.2 590.44 A194.173 194.173 0 0 1 0 575.94 L3.19 582.07
+									 Z" class="st35"></path>
+					</g>
+					<g id="shape123-315" transform="matrix(1,0,0,1,26.2071,-16.7246)">
+										<path d="M0 512.13 A198.425 198.425 -180 0 0 92.48 595.28 L89.29 589.15 A194.173 194.173 0 0 1 3.6 509.86 L0 512.13
+									 Z" class="st36"></path>
+					</g>
+					<g id="shape124-319" transform="matrix(1,0,0,1,0,-99.8681)">
+										<path d="M13.39 425.07 A198.425 198.425 -180 0 0 26.21 595.28 L29.81 593.01 A194.173 194.173 0 0 1 16.68 428.36 L13.39
+									 425.07 Z" class="st29"></path>
+					</g>
+					<g id="shape125-322" transform="matrix(1,0,0,1,13.3882,-266.782)">
+										<path d="M28.1 542.22 A198.425 198.425 -180 0 0 0 591.98 L3.29 595.28 A194.173 194.173 0 0 1 30.27 546.38 L28.1 542.22
+									 Z" class="st37"></path>
+					</g>
+					<g id="shape126-326" transform="matrix(1,0,0,1,41.4845,-315.681)">
+										<path d="M53.31 543.32 A198.425 198.425 -180 0 0 0 591.11 L2.17 595.28 A194.173 194.173 0 0 1 55.28 547.1 L53.31
+									 543.32 Z" class="st30"></path>
+					</g>
+					<g id="shape127-329" transform="matrix(1,0,0,1,94.7936,-363.859)">
+										<path d="M36.68 573.92 A198.425 198.425 -180 0 0 -0 591.5 L1.97 595.28 A194.173 194.173 0 0 1 38.66 577.73 L36.68
+									 573.92 Z" class="st31"></path>
+					</g>
+					<g id="shape128-332" transform="matrix(1,0,0,1,326.072,-54.4363)">
+										<path d="M3.75 302.6 L0 304.97 A194.173 194.173 0 0 1 4.5 593.55 L8.88 595.28 A198.425 198.425 -180 0 0 3.75 302.6
+									 Z" class="st38"></path>
+					</g>
+					<g id="shape129-336" transform="matrix(1,0,0,1,292.993,-344.745)">
+										<path d="M4.08 569.43 L0 572.01 A194.173 194.173 0 0 1 33.08 595.28 L36.83 592.91 A198.425 198.425 -180 0 0 4.08
+									 569.43 Z" class="st39"></path>
+					</g>
+					<g id="shape130-340" transform="matrix(1,0,0,1,131.469,-368.013)">
+										<path d="M165.61 592.7 A198.425 198.425 -180 0 0 0 578.08 L1.98 581.88 A194.173 194.173 0 0 1 161.52 595.28 L165.61
+									 592.7 Z" class="st26"></path>
+					</g>
+				</g>
+				<g id="group131-343" transform="matrix(1,0,0,1,50.5512,-140.31)">
+								<g id="shape132-344" transform="matrix(1,0,0,1,194.173,-245.871)">
+														
+						<rect x="0" y="545.756" width="54.6142" height="49.5197" class="st40"></rect>
+						<text x="17.48" y="581.32" class="st41">1</text>			</g>
+					<g id="shape133-347" transform="matrix(1,0,0,1,252.283,-197.345)">
+														
+						<rect x="0" y="545.756" width="54.6142" height="49.5197" class="st40"></rect>
+						<text x="17.48" y="581.32" class="st41">2</text>			</g>
+					<g id="shape134-350" transform="matrix(1,0,0,1,252.283,-47.9875)">
+														
+						<rect x="0" y="545.756" width="54.6142" height="49.5197" class="st40"></rect>
+						<text x="17.48" y="581.32" class="st41">4</text>			</g>
+					<g id="shape135-353" transform="matrix(1,0,0,1,194.173,0)">
+														
+						<rect x="0" y="545.756" width="54.6142" height="49.5197" class="st40"></rect>
+						<text x="17.48" y="581.32" class="st41">5</text>			</g>
+					<g id="shape136-356" transform="matrix(1,0,0,1,52.4409,0)">
+														
+						<rect x="0" y="545.756" width="54.6142" height="49.5197" class="st40"></rect>
+						<text x="17.48" y="581.32" class="st41">7</text>			</g>
+					<g id="shape137-359" transform="matrix(1,0,0,1,0.336875,-51.956)">
+														
+						<rect x="0" y="545.756" width="54.6142" height="49.5197" class="st40"></rect>
+						<text x="17.48" y="581.32" class="st41">8</text>			</g>
+					<g id="shape138-362" transform="matrix(1,0,0,1,3.9968e-015,-193.915)">
+														
+						<rect x="0" y="545.756" width="54.6142" height="49.5197" class="st40"></rect>
+						<text x="7.65" y="581.32" class="st41">10</text>			</g>
+					<g id="shape139-365" transform="matrix(1,0,0,1,51.8455,-245.871)">
+														
+						<rect x="0" y="545.756" width="54.6142" height="49.5197" class="st40"></rect>
+						<text x="7.65" y="581.32" class="st41">11</text>			</g>
+					<g id="shape140-368" transform="matrix(1,0,0,1,123.307,-266.128)">
+														
+						<rect x="0" y="545.756" width="54.6142" height="49.5197" class="st40"></rect>
+						<text x="7.65" y="581.32" class="st41">12</text>			</g>
+				</g>
+				<g id="shape141-371" transform="matrix(-0.587785252292473,0.8090169943749475,-0.8090169943749475,-0.587785252292473,577.7707280127884,654.2699255580428)">
+								<path d="M2.83 595.28 L1.42 555.59 L0 595.28 L2.83 595.28 Z" class="st42"></path>
+				</g>
+				<g id="shape142-373" transform="matrix(0.6293203910498375,0.7771459614569708,-0.7771459614569708,0.6293203910498375,556.2105813501557,-71.23488244530228)">
+								<path d="M5.67 595.28 L2.83 547.09 L0 595.28 L5.67 595.28 Z" class="st42"></path>
+				</g>
+				<g id="group143-375" transform="matrix(1,0,0,1,34.8661,-230.102)">
+								<g id="group144-376" transform="matrix(1,0,0,1,52.0026,-51.0236)">
+										<g id="shape145-377" transform="matrix(1,0,0,1,6.37795,-6.37795)">
+												<ellipse cx="2.12598" cy="593.15" rx="2.12598" ry="2.12598" class="st43"></ellipse>
+						</g>
+						<g id="shape146-379">
+												<path d="M17.01 586.77 A8.50394 8.50394 -180 1 0 -0 586.77 A8.50394 8.50394 -180 1 0 17.01 586.77 ZM14.88 586.77
+										 A6.37795 6.37795 -180 1 0 2.13 586.77 A6.37795 6.37795 -180 1 0 14.88 586.77 Z" class="st44"></path>
+						</g>
+						<g id="shape147-381" transform="matrix(1,0,0,1,2.12598,-2.12598)">
+												<path d="M12.76 588.9 A6.37795 6.37795 -180 1 0 0 588.9 A6.37795 6.37795 -180 1 0 12.76 588.9 ZM11.34 588.9 A4.96063
+										 4.96063 -180 1 0 1.42 588.9 A4.96063 4.96063 -180 1 0 11.34 588.9 Z" class="st45"></path>
+						</g>
+						<g id="shape148-383" transform="matrix(1,0,0,1,3.54331,-3.54331)">
+												<path d="M9.92 590.31 A4.96063 4.96063 -180 1 0 0 590.31 A4.96063 4.96063 -180 1 0 9.92 590.31 ZM7.09 590.31
+										 A2.12598 2.12598 -180 1 0 2.83 590.31 A2.12598 2.12598 -180 1 0 7.09 590.31 Z" class="st44"></path>
+						</g>
+					</g>
+					<g id="group149-385" transform="matrix(1,0,0,1,20.8215,-19.8425)">
+										<g id="group150-386">
+												<g id="shape151-387" transform="matrix(1,0,0,1,74.3438,-43.3888)">
+														<path d="M0 591.61 A35.4331 35.4331 0 0 1 0.58 595.28 L4.81 594.83 A39.685 39.685 -180 0 0 4.16 590.73 L0
+											 591.61 Z" class="st46"></path>
+							</g>
+							<g id="shape152-389" transform="matrix(1,0,0,1,0.217399,-31.4341)">
+														<path d="M4.81 594.39 A35.4331 35.4331 0 0 1 4.23 590.73 L0 591.17 A39.685 39.685 -180 0 0 0.65 595.28 L4.81
+											 594.39 Z" class="st46"></path>
+							</g>
+							<g id="shape153-391" transform="matrix(1,0,0,1,73.3839,-47.052)">
+														<path d="M0 591.69 A35.4331 35.4331 0 0 1 0.96 595.28 L5.12 594.39 A39.685 39.685 -180 0 0 4.04 590.38 L0
+											 591.69 Z" class="st46"></path>
+							</g>
+							<g id="shape154-393" transform="matrix(1,0,0,1,0.867213,-27.4217)">
+														<path d="M5.12 593.96 A35.4331 35.4331 0 0 1 4.16 590.38 L0 591.26 A39.685 39.685 -180 0 0 1.08 595.28 L5.12
+											 593.96 Z" class="st46"></path>
+							</g>
+							<g id="shape155-395" transform="matrix(1,0,0,1,72.0548,-50.6345)">
+														<path d="M-0 591.81 A35.4331 35.4331 0 0 1 1.33 595.28 L5.37 593.96 A39.685 39.685 -180 0 0 3.88 590.08 L0
+											 591.81 Z" class="st46"></path>
+							</g>
+							<g id="shape156-397" transform="matrix(1,0,0,1,1.94232,-23.5437)">
+														<path d="M5.37 593.55 A35.4331 35.4331 0 0 1 4.04 590.08 L0 591.4 A39.685 39.685 -180 0 0 1.49 595.28 L5.37
+											 593.55 Z" class="st46"></path>
+							</g>
+							<g id="shape157-399" transform="matrix(1,0,0,1,70.371,-54.097)">
+														<path d="M0 591.97 A35.4331 35.4331 0 0 1 1.68 595.28 L5.57 593.55 A39.685 39.685 -180 0 0 3.68 589.84 L0
+											 591.97 Z" class="st46"></path>
+							</g>
+							<g id="shape158-401" transform="matrix(1,0,0,1,3.43095,-19.8425)">
+														<path d="M5.57 593.15 A35.4331 35.4331 0 0 1 3.88 589.84 L0 591.57 A39.685 39.685 -180 0 0 1.89 595.28 L5.57
+											 593.15 Z" class="st46"></path>
+							</g>
+							<g id="shape159-403" transform="matrix(1,0,0,1,68.351,-57.4016)">
+														<path d="M0 592.17 A35.4331 35.4331 0 0 1 2.02 595.28 L5.7 593.15 A39.685 39.685 -180 0 0 3.44 589.67 L0
+											 592.17 Z" class="st46"></path>
+							</g>
+							<g id="shape160-405" transform="matrix(1,0,0,1,5.31679,-16.3588)">
+														<path d="M5.7 592.78 A35.4331 35.4331 0 0 1 3.68 589.67 L0 591.79 A39.685 39.685 -180 0 0 2.26 595.28 L5.7
+											 592.78 Z" class="st46"></path>
+							</g>
+							<g id="shape161-407" transform="matrix(1,0,0,1,66.0169,-60.5121)">
+														<path d="M0 592.39 A35.4331 35.4331 0 0 1 2.33 595.28 L5.77 592.78 A39.685 39.685 -180 0 0 3.16 589.55 L0
+											 592.39 Z" class="st46"></path>
+							</g>
+							<g id="shape162-409" transform="matrix(1,0,0,1,7.57917,-13.1306)">
+														<path d="M5.77 592.43 A35.4331 35.4331 0 0 1 3.44 589.55 L0 592.05 A39.685 39.685 -180 0 0 2.61 595.28 L5.77
+											 592.43 Z" class="st46"></path>
+							</g>
+							<g id="shape163-411" transform="matrix(1,0,0,1,63.3944,-63.3944)">
+														<path d="M-0 592.65 A35.4331 35.4331 0 0 1 2.62 595.28 L5.78 592.43 A39.685 39.685 -180 0 0 2.85 589.49 L0
+											 592.65 Z" class="st46"></path>
+							</g>
+							<g id="shape164-413" transform="matrix(1,0,0,1,10.1933,-10.1933)">
+														<path d="M5.78 592.12 A35.4331 35.4331 0 0 1 3.16 589.49 L0 592.34 A39.685 39.685 -180 0 0 2.94 595.28 L5.78
+											 592.12 Z" class="st46"></path>
+							</g>
+							<g id="shape165-415" transform="matrix(1,0,0,1,60.5121,-66.0169)">
+														<path d="M0 592.94 A35.4331 35.4331 0 0 1 2.88 595.28 L5.73 592.12 A39.685 39.685 -180 0 0 2.5 589.5 L0 592.94
+											 Z" class="st46"></path>
+							</g>
+							<g id="shape166-417" transform="matrix(1,0,0,1,57.4016,-68.351)">
+														<path d="M3.11 595.28 L5.61 591.84 A39.685 39.685 -180 0 0 2.13 589.57 L0 593.26 A35.4331 35.4331 0 0 1 3.11
+											 595.28 Z" class="st46"></path>
+							</g>
+							<g id="shape167-419" transform="matrix(1,0,0,1,13.1306,-7.57917)">
+														<path d="M5.73 591.84 A35.4331 35.4331 0 0 1 2.85 589.5 L0 592.66 A39.685 39.685 -180 0 0 3.23 595.28 L5.73
+											 591.84 Z" class="st46"></path>
+							</g>
+							<g id="shape168-421" transform="matrix(1,0,0,1,16.3588,-5.31679)">
+														<path d="M2.5 589.57 L0 593.01 A39.685 39.685 -180 0 0 3.48 595.28 L5.61 591.59 A35.4331 35.4331 0 0 1 2.5
+											 589.57 Z" class="st46"></path>
+							</g>
+							<g id="shape169-423" transform="matrix(1,0,0,1,54.097,-70.371)">
+														<path d="M0 593.59 A35.4331 35.4331 0 0 1 3.3 595.28 L5.43 591.59 A39.685 39.685 -180 0 0 1.73 589.71 L0
+											 593.59 Z" class="st46"></path>
+							</g>
+							<g id="shape170-425" transform="matrix(1,0,0,1,19.8425,-3.43095)">
+														<path d="M5.43 591.39 A35.4331 35.4331 0 0 1 2.13 589.71 L0 593.39 A39.685 39.685 -180 0 0 3.7 595.28 L5.43
+											 591.39 Z" class="st46"></path>
+							</g>
+							<g id="shape171-427" transform="matrix(1,0,0,1,31.4341,-0.217399)">
+														<path d="M-0 594.63 A39.685 39.685 -180 0 0 4.1 595.28 L4.55 591.05 A35.4331 35.4331 0 0 1 0.88 590.47 L0
+											 594.63 Z" class="st46"></path>
+							</g>
+							<g id="shape172-429" transform="matrix(1,0,0,1,43.3888,-74.3438)">
+														<path d="M3.66 595.28 L4.55 591.12 A39.685 39.685 -180 0 0 0.44 590.47 L0 594.7 A35.4331 35.4331 0 0 1 3.66
+											 595.28 Z" class="st46"></path>
+							</g>
+							<g id="shape173-431" transform="matrix(1,0,0,1,50.6345,-72.0548)">
+														<path d="M-0 593.95 A35.4331 35.4331 0 0 1 3.46 595.28 L5.19 591.39 A39.685 39.685 -180 0 0 1.31 589.9 L0
+											 593.95 Z" class="st46"></path>
+							</g>
+							<g id="shape174-433" transform="matrix(1,0,0,1,47.052,-73.3839)">
+														<path d="M3.58 595.28 L4.9 591.23 A39.685 39.685 -180 0 0 0.88 590.16 L0 594.32 A35.4331 35.4331 0 0 1 3.58
+											 595.28 Z" class="st46"></path>
+							</g>
+							<g id="shape175-435" transform="matrix(1,0,0,1,23.5437,-1.94232)">
+														<path d="M5.19 591.23 A35.4331 35.4331 0 0 1 1.73 589.9 L0 593.79 A39.685 39.685 -180 0 0 3.88 595.28 L5.19
+											 591.23 Z" class="st46"></path>
+							</g>
+							<g id="shape176-437" transform="matrix(1,0,0,1,27.4217,-0.867213)">
+														<path d="M1.31 590.16 L0 594.2 A39.685 39.685 -180 0 0 4.01 595.28 L4.9 591.12 A35.4331 35.4331 0 0 1 1.31
+											 590.16 Z" class="st46"></path>
+							</g>
+							<g id="shape177-439" transform="matrix(1,0,0,1,0,-35.5368)">
+														<path d="M0 591.13 A39.685 39.685 -180 0 0 0.22 595.28 L4.45 594.83 A35.4331 35.4331 0 0 1 4.25 591.13 L0
+											 591.13 Z" class="st46"></path>
+							</g>
+							<g id="shape178-441" transform="matrix(1,0,0,1,74.924,-39.685)">
+														<path d="M0.19 595.28 L4.45 595.28 A39.685 39.685 -180 0 0 4.23 591.13 L0 591.57 A35.4331 35.4331 0 0 1 0.19
+											 595.28 Z" class="st46"></path>
+							</g>
+							<g id="shape179-443" transform="matrix(1,0,0,1,1.81605e-013,-39.685)">
+														<path d="M0.22 591.13 A39.685 39.685 -180 0 0 0 595.28 L4.25 595.28 A35.4331 35.4331 0 0 1 4.45 591.57 L0.22
+											 591.13 Z" class="st46"></path>
+							</g>
+							<g id="shape180-445" transform="matrix(1,0,0,1,74.924,-35.5368)">
+														<path d="M0 594.83 L4.23 595.28 A39.685 39.685 -180 0 0 4.45 591.13 L0.19 591.13 A35.4331 35.4331 0 0 1 0
+											 594.83 Z" class="st46"></path>
+							</g>
+							<g id="shape181-447" transform="matrix(1,0,0,1,0.217399,-43.3888)">
+														<path d="M0.65 590.73 A39.685 39.685 -180 0 0 -0 594.83 L4.23 595.28 A35.4331 35.4331 0 0 1 4.81 591.61 L0.65
+											 590.73 Z" class="st46"></path>
+							</g>
+							<g id="shape182-449" transform="matrix(1,0,0,1,74.3438,-31.4341)">
+														<path d="M0 594.39 L4.16 595.28 A39.685 39.685 -180 0 0 4.81 591.17 L0.58 590.73 A35.4331 35.4331 0 0 1 0
+											 594.39 Z" class="st46"></path>
+							</g>
+							<g id="shape183-451" transform="matrix(1,0,0,1,0.867213,-47.052)">
+														<path d="M1.08 590.38 A39.685 39.685 -180 0 0 -0 594.39 L4.16 595.28 A35.4331 35.4331 0 0 1 5.12 591.69 L1.08
+											 590.38 Z" class="st46"></path>
+							</g>
+							<g id="shape184-453" transform="matrix(1,0,0,1,73.3839,-27.4217)">
+														<path d="M0 593.96 L4.04 595.28 A39.685 39.685 -180 0 0 5.12 591.26 L0.96 590.38 A35.4331 35.4331 0 0 1 0
+											 593.96 Z" class="st46"></path>
+							</g>
+							<g id="shape185-455" transform="matrix(1,0,0,1,1.94232,-50.6345)">
+														<path d="M1.49 590.08 A39.685 39.685 -180 0 0 0 593.96 L4.04 595.28 A35.4331 35.4331 0 0 1 5.37 591.81 L1.49
+											 590.08 Z" class="st46"></path>
+							</g>
+							<g id="shape186-457" transform="matrix(1,0,0,1,72.0548,-23.5437)">
+														<path d="M0 593.55 L3.88 595.28 A39.685 39.685 -180 0 0 5.37 591.4 L1.33 590.08 A35.4331 35.4331 0 0 1 0
+											 593.55 Z" class="st46"></path>
+							</g>
+							<g id="shape187-459" transform="matrix(1,0,0,1,3.43095,-54.097)">
+														<path d="M1.89 589.84 A39.685 39.685 -180 0 0 -0 593.55 L3.88 595.28 A35.4331 35.4331 0 0 1 5.57 591.97 L1.89
+											 589.84 Z" class="st46"></path>
+							</g>
+							<g id="shape188-461" transform="matrix(1,0,0,1,70.371,-19.8425)">
+														<path d="M0 593.15 L3.68 595.28 A39.685 39.685 -180 0 0 5.57 591.57 L1.68 589.84 A35.4331 35.4331 0 0 1 -0
+											 593.15 Z" class="st46"></path>
+							</g>
+							<g id="shape189-463" transform="matrix(1,0,0,1,5.31679,-57.4016)">
+														<path d="M2.26 589.67 A39.685 39.685 -180 0 0 0 593.15 L3.68 595.28 A35.4331 35.4331 0 0 1 5.7 592.17 L2.26
+											 589.67 Z" class="st46"></path>
+							</g>
+							<g id="shape190-465" transform="matrix(1,0,0,1,68.351,-16.3588)">
+														<path d="M0 592.78 L3.44 595.28 A39.685 39.685 -180 0 0 5.7 591.79 L2.02 589.67 A35.4331 35.4331 0 0 1 0
+											 592.78 Z" class="st46"></path>
+							</g>
+							<g id="shape191-467" transform="matrix(1,0,0,1,7.57917,-60.5121)">
+														<path d="M2.61 589.55 A39.685 39.685 -180 0 0 -0 592.78 L3.44 595.28 A35.4331 35.4331 0 0 1 5.77 592.39 L2.61
+											 589.55 Z" class="st46"></path>
+							</g>
+							<g id="shape192-469" transform="matrix(1,0,0,1,66.0169,-13.1306)">
+														<path d="M0 592.43 L3.16 595.28 A39.685 39.685 -180 0 0 5.77 592.05 L2.33 589.55 A35.4331 35.4331 0 0 1 0
+											 592.43 Z" class="st46"></path>
+							</g>
+							<g id="shape193-471" transform="matrix(1,0,0,1,63.3944,-10.1933)">
+														<path d="M2.85 595.28 A39.685 39.685 -180 0 0 5.78 592.34 L2.62 589.49 A35.4331 35.4331 0 0 1 -0 592.12 L2.85
+											 595.28 Z" class="st46"></path>
+							</g>
+							<g id="shape194-473" transform="matrix(1,0,0,1,10.1933,-63.3944)">
+														<path d="M5.78 592.65 L2.94 589.49 A39.685 39.685 -180 0 0 -0 592.43 L3.16 595.28 A35.4331 35.4331 0 0 1
+											 5.78 592.65 Z" class="st46"></path>
+							</g>
+							<g id="shape195-475" transform="matrix(1,0,0,1,13.1306,-66.0169)">
+														<path d="M5.73 592.94 L3.23 589.5 A39.685 39.685 -180 0 0 0 592.12 L2.85 595.28 A35.4331 35.4331 0 0 1 5.73
+											 592.94 Z" class="st46"></path>
+							</g>
+							<g id="shape196-477" transform="matrix(1,0,0,1,60.5121,-7.57917)">
+														<path d="M0 591.84 L2.5 595.28 A39.685 39.685 -180 0 0 5.73 592.66 L2.88 589.5 A35.4331 35.4331 0 0 1 0 591.84
+											 Z" class="st46"></path>
+							</g>
+							<g id="shape197-479" transform="matrix(1,0,0,1,16.3588,-68.351)">
+														<path d="M3.48 589.57 A39.685 39.685 -180 0 0 0 591.84 L2.5 595.28 A35.4331 35.4331 0 0 1 5.61 593.26 L3.48
+											 589.57 Z" class="st46"></path>
+							</g>
+							<g id="shape198-481" transform="matrix(1,0,0,1,57.4016,-5.31679)">
+														<path d="M0 591.59 L2.13 595.28 A39.685 39.685 -180 0 0 5.61 593.01 L3.11 589.57 A35.4331 35.4331 0 0 1 0
+											 591.59 Z" class="st46"></path>
+							</g>
+							<g id="shape199-483" transform="matrix(1,0,0,1,19.8425,-70.371)">
+														<path d="M3.7 589.71 A39.685 39.685 -180 0 0 -0 591.59 L2.13 595.28 A35.4331 35.4331 0 0 1 5.43 593.59 L3.7
+											 589.71 Z" class="st46"></path>
+							</g>
+							<g id="shape200-485" transform="matrix(1,0,0,1,54.097,-3.43095)">
+														<path d="M0 591.39 L1.73 595.28 A39.685 39.685 -180 0 0 5.43 593.39 L3.3 589.71 A35.4331 35.4331 0 0 1 -0
+											 591.39 Z" class="st46"></path>
+							</g>
+							<g id="shape201-487" transform="matrix(1,0,0,1,27.4217,-73.3839)">
+														<path d="M1.31 595.28 A35.4331 35.4331 0 0 1 4.9 594.32 L4.01 590.16 A39.685 39.685 -180 0 0 -0 591.23 L1.31
+											 595.28 Z" class="st46"></path>
+							</g>
+							<g id="shape202-489" transform="matrix(1,0,0,1,23.5437,-72.0548)">
+														<path d="M5.19 593.95 L3.88 589.9 A39.685 39.685 -180 0 0 0 591.39 L1.73 595.28 A35.4331 35.4331 0 0 1 5.19
+											 593.95 Z" class="st46"></path>
+							</g>
+							<g id="shape203-491" transform="matrix(1,0,0,1,47.052,-0.867213)">
+														<path d="M3.58 590.16 A35.4331 35.4331 0 0 1 0 591.12 L0.88 595.28 A39.685 39.685 -180 0 0 4.9 594.2 L3.58
+											 590.16 Z" class="st46"></path>
+							</g>
+							<g id="shape204-493" transform="matrix(1,0,0,1,50.6345,-1.94232)">
+														<path d="M0 591.23 L1.31 595.28 A39.685 39.685 -180 0 0 5.19 593.79 L3.46 589.9 A35.4331 35.4331 0 0 1 0
+											 591.23 Z" class="st46"></path>
+							</g>
+							<g id="shape205-495" transform="matrix(1,0,0,1,31.4341,-74.3438)">
+														<path d="M4.1 590.47 A39.685 39.685 -180 0 0 0 591.12 L0.88 595.28 A35.4331 35.4331 0 0 1 4.55 594.7 L4.1
+											 590.47 Z" class="st46"></path>
+							</g>
+							<g id="shape206-497" transform="matrix(1,0,0,1,43.3888,-0.217399)">
+														<path d="M0 591.05 L0.44 595.28 A39.685 39.685 -180 0 0 4.55 594.63 L3.66 590.47 A35.4331 35.4331 0 0 1 -0
+											 591.05 Z" class="st46"></path>
+							</g>
+							<g id="shape207-499" transform="matrix(1,0,0,1,39.685,-74.924)">
+														<path d="M0 595.08 A35.4331 35.4331 0 0 1 3.7 595.28 L4.15 591.05 A39.685 39.685 -180 0 0 -0 590.83 L0 595.08
+											 Z" class="st46"></path>
+							</g>
+							<g id="shape208-501" transform="matrix(1,0,0,1,35.5368,-74.924)">
+														<path d="M4.15 595.08 L4.15 590.83 A39.685 39.685 -180 0 0 0 591.05 L0.44 595.28 A35.4331 35.4331 0 0 1 4.15
+											 595.08 Z" class="st46"></path>
+							</g>
+							<g id="shape209-503" transform="matrix(1,0,0,1,35.5368,-1.13687e-013)">
+														<path d="M4.15 591.02 A35.4331 35.4331 0 0 1 0.44 590.83 L0 595.06 A39.685 39.685 -180 0 0 4.15 595.28 L4.15
+											 591.02 Z" class="st46"></path>
+							</g>
+							<g id="shape210-505" transform="matrix(1,0,0,1,39.685,0)">
+														<path d="M0 591.02 L0 595.28 A39.685 39.685 -180 0 0 4.15 595.06 L3.7 590.83 A35.4331 35.4331 0 0 1 -0 591.02
+											 Z" class="st46"></path>
+							</g>
+						</g>
+						<g id="shape211-507" transform="matrix(0.5000000000000001,-0.8660254037844386,0.8660254037844386,0.5000000000000001,-460.957,232.177)">
+												<path d="M0 595.28 L5.67 595.28" class="st47"></path>
+						</g>
+						<g id="shape212-510" transform="matrix(1,0,0,1,69.3973,-39.685)">
+												<path d="M0 595.28 L5.67 595.28" class="st47"></path>
+						</g>
+						<g id="shape213-513" transform="matrix(0.5000000000000001,0.8660254037844386,-0.8660254037844386,0.5000000000000001,570.091,283.729)">
+												<path d="M0 595.28 L5.67 595.28" class="st47"></path>
+						</g>
+						<g id="shape214-516" transform="matrix(-0.5000000000000001,-0.8660254037844386,-0.8660254037844386,0.5000000000000001,540.623,232.177)">
+												<path d="M0 595.28 L5.67 595.28" class="st47"></path>
+						</g>
+						<g id="shape215-519" transform="matrix(-1.0,0.0,0.0,1.0,10.1403,-39.685)">
+												<path d="M0 595.28 L5.67 595.28" class="st47"></path>
+						</g>
+						<g id="shape216-522" transform="matrix(-0.5000000000000001,0.8660254037844386,0.8660254037844386,0.5000000000000001,-490.424,283.729)">
+												<path d="M0 595.28 L5.67 595.28" class="st47"></path>
+						</g>
+						<g id="shape217-525" transform="matrix(0.5000000000000001,0.8660254037844386,-0.8660254037844386,0.5000000000000001,568.596,239.252)">
+																	
+							<rect x="0" y="581.276" width="19.0866" height="14" class="st48"></rect>
+							<text x="4.08" y="591.28" class="st49">10</text>				</g>
+						<g id="shape218-528" transform="matrix(-0.4999999999999998,0.8660254037844387,-0.8660254037844387,-0.4999999999999998,578.14,855.307)">
+																	
+							<rect x="0" y="581.276" width="19.0866" height="14" class="st48"></rect>
+							<text x="4.08" y="591.28" class="st49">20</text>				</g>
+						<g id="shape219-531" transform="matrix(-0.4999999999999998,-0.8660254037844387,0.8660254037844387,-0.4999999999999998,-489.288,871.996)">
+																	
+							<rect x="0" y="581.276" width="19.0866" height="14" class="st48"></rect>
+							<text x="4.08" y="591.28" class="st49">40</text>				</g>
+						<g id="shape220-534" transform="matrix(0.5000000000000001,-0.8660254037844386,0.8660254037844386,0.5000000000000001,-498.894,255.733)">
+																	
+							<rect x="0" y="581.276" width="19.0866" height="14" class="st48"></rect>
+							<text x="4.08" y="591.28" class="st49">50</text>				</g>
+						<g id="shape221-537" transform="matrix(1,0,0,1,29.9528,-60.8346)">
+																	
+							<rect x="0" y="581.276" width="19.0866" height="14" class="st48"></rect>
+							<text x="4.08" y="591.28" class="st49">60</text>				</g>
+						<g id="shape222-540" transform="matrix(-1.0,1.2246467991473532E-16,-1.2246467991473532E-16,-1.0,49.2283,1172.21)">
+																	
+							<rect x="0" y="581.276" width="19.0866" height="14" class="st48"></rect>
+							<text x="4.08" y="591.28" class="st49">30</text>				</g>
+					</g>
+					<g id="group223-543">
+										<g id="shape224-544" transform="matrix(1,0,0,1,0.932482,0)">
+												<ellipse cx="59.5276" cy="535.748" rx="59.5276" ry="59.5276" class="st50"></ellipse>
+						</g>
+						<g id="shape225-546" transform="matrix(1,0,0,1,51.9561,-105.055)">
+																	
+							<rect x="0" y="581.276" width="17.0079" height="14" class="st48"></rect>
+							<text x="1.2" y="592.48" class="st51">нд</text>				</g>
+						<g id="shape226-549" transform="matrix(0.6427876096865394,0.766044443118978,-0.766044443118978,0.6427876096865394,547.226,118.458)">
+																	
+							<rect x="0" y="581.276" width="17.0079" height="14" class="st48"></rect>
+							<text x="1.01" y="592.48" class="st52">пн</text>				</g>
+						<g id="shape227-552" transform="matrix(-0.25881904510252085,0.9659258262890683,-0.9659258262890683,-0.25881904510252085,682.482,691.129)">
+																	
+							<rect x="0" y="581.276" width="17.0079" height="14" class="st48"></rect>
+							<text x="2.14" y="592.48" class="st52">вт</text>				</g>
+						<g id="shape228-555" transform="matrix(-0.8660254037844387,0.49999999999999994,-0.49999999999999994,-0.8660254037844387,384.925,1088.12)">
+																	
+							<rect x="0" y="581.276" width="17.0079" height="14" class="st48"></rect>
+							<text x="1.9" y="592.48" class="st52">ср</text>				</g>
+						<g id="shape229-558" transform="matrix(-0.8660254037844387,-0.49999999999999994,0.49999999999999994,-0.8660254037844387,-249.086,1096.89)">
+																	
+							<rect x="0" y="581.276" width="17.0079" height="14" class="st48"></rect>
+							<text x="1.92" y="592.48" class="st52">чт</text>				</g>
+						<g id="shape230-561" transform="matrix(-0.25881904510252085,-0.9659258262890683,0.9659258262890683,-0.25881904510252085,-557.067,706.991)">
+																	
+							<rect x="0" y="581.276" width="17.0079" height="14" class="st48"></rect>
+							<text x="1.7" y="592.48" class="st52">пт</text>				</g>
+						<g id="shape231-564" transform="matrix(0.7071067811865476,-0.7071067811865475,0.7071067811865475,0.7071067811865476,-402.346,92.7144)">
+																	
+							<rect x="0" y="581.276" width="17.0079" height="14" class="st48"></rect>
+							<text x="1.84" y="592.48" class="st52">сб</text>				</g>
+					</g>
+				</g>
+				<g id="shape232-567" transform="matrix(1,0,0,1,141.874,-125.22)">
+								<ellipse cx="59.5276" cy="535.748" rx="59.5276" ry="59.5276" class="st53"></ellipse>
+				</g>
+				<g id="shape233-569" transform="matrix(1,0,0,1,218.433,-221.953)">
+											
+					<rect x="0" y="581.276" width="25.1811" height="14" class="st40"></rect>
+					<text x="6.43" y="591.28" class="st49">січ</text>		</g>
+				<g id="shape234-572" transform="matrix(1,0,0,1,231.472,-202.677)">
+											
+					<rect x="0" y="581.276" width="25.1811" height="14" class="st40"></rect>
+					<text x="3.67" y="591.28" class="st49">лют</text>		</g>
+				<g id="shape235-575" transform="matrix(1,0,0,1,238.961,-177.732)">
+											
+					<rect x="0" y="581.276" width="25.1811" height="14" class="st40"></rect>
+					<text x="4.45" y="591.28" class="st49">бер</text>		</g>
+				<g id="shape236-578" transform="matrix(1,0,0,1,233.858,-152.22)">
+											
+					<rect x="0" y="581.276" width="25.1811" height="14" class="st40"></rect>
+					<text x="6.34" y="591.28" class="st49">кві</text>		</g>
+				<g id="shape237-581" transform="matrix(1,0,0,1,217.866,-135.583)">
+											
+					<rect x="0" y="581.276" width="25.1811" height="14" class="st40"></rect>
+					<text x="4.87" y="591.28" class="st49">тра</text>		</g>
+				<g id="shape238-584" transform="matrix(1,0,0,1,188.953,-125.945)">
+											
+					<rect x="0" y="581.276" width="25.1811" height="14" class="st40"></rect>
+					<text x="4.48" y="591.28" class="st49">чер</text>		</g>
+				<g id="shape239-587" transform="matrix(1,0,0,1,160.039,-135.78)">
+											
+					<rect x="0" y="581.276" width="25.1811" height="14" class="st40"></rect>
+					<text x="4.18" y="591.28" class="st49">лип</text>		</g>
+				<g id="shape240-590" transform="matrix(1,0,0,1,144.047,-153.354)">
+											
+					<rect x="0" y="581.276" width="25.1811" height="14" class="st40"></rect>
+					<text x="4.89" y="591.28" class="st49">сер</text>		</g>
+				<g id="shape241-593" transform="matrix(1,0,0,1,138.614,-177.906)">
+											
+					<rect x="0" y="581.276" width="25.1811" height="14" class="st40"></rect>
+					<text x="4.57" y="591.28" class="st49">вер</text>		</g>
+				<g id="shape242-596" transform="matrix(1,0,0,1,145.299,-200.866)">
+											
+					<rect x="0" y="581.276" width="25.1811" height="14" class="st40"></rect>
+					<text x="3.6" y="591.28" class="st49">жов</text>		</g>
+				<g id="shape243-599" transform="matrix(1,0,0,1,158.339,-219.118)">
+											
+					<rect x="0" y="581.276" width="25.1811" height="14" class="st40"></rect>
+					<text x="4.69" y="591.28" class="st49">лис</text>		</g>
+				<g id="shape244-602" transform="matrix(1,0,0,1,188.835,-230.63)">
+											
+					<rect x="0" y="581.276" width="25.1811" height="14" class="st40"></rect>
+					<text x="5.26" y="591.28" class="st49">гру</text>		</g>
+				<g id="group245-605" transform="matrix(0.8660254037844384,-0.5000000000000004,0.5000000000000004,0.8660254037844384,-96.90237749009265,-104.45050723950862)">
+								<g id="shape246-606">
+										<ellipse cx="1.41732" cy="572.598" rx="1.41732" ry="22.6772" class="st42"></ellipse>
+					</g>
+					<g id="shape247-608" transform="matrix(6.123233995736766E-17,1.0,-1.0,6.123233995736766E-17,596.693,550.204)">
+										<path d="M0 595.28 L44.79 595.28" class="st54"></path>
+					</g>
+				</g>
+				<g id="group249-611" transform="matrix(1,0,0,1,157.488,-144.482)">
+								<g id="shape250-612" transform="matrix(1,0,0,1,3.59729,-0.33078)">
+										<ellipse cx="39.8135" cy="555.462" rx="39.8135" ry="39.8135" class="st53"></ellipse>
+					</g>
+					<g id="shape251-614" transform="matrix(1,0,0,1,55.3598,-64.5917)">
+														
+						<rect x="0" y="585.912" width="16.8418" height="9.36355" class="st40"></rect>
+						<text x="6.78" y="592.39" class="st55">3</text>			</g>
+					<g id="shape252-617" transform="matrix(1,0,0,1,65.2974,-54.1064)">
+														
+						<rect x="0" y="585.912" width="16.8418" height="9.36355" class="st40"></rect>
+						<text x="6.78" y="592.39" class="st55">5</text>			</g>
+					<g id="shape253-620" transform="matrix(1,0,0,1,70.985,-40.5719)">
+														
+						<rect x="0" y="585.912" width="16.8418" height="9.36355" class="st40"></rect>
+						<text x="6.78" y="592.39" class="st55">7</text>			</g>
+					<g id="shape254-623" transform="matrix(1,0,0,1,70.5268,-25.9157)">
+														
+						<rect x="0" y="585.912" width="16.8418" height="9.36355" class="st40"></rect>
+						<text x="6.78" y="592.39" class="st55">9</text>			</g>
+					<g id="shape255-626" transform="matrix(1,0,0,1,62.185,-13.2712)">
+														
+						<rect x="0" y="585.912" width="16.8418" height="9.36355" class="st40"></rect>
+						<text x="5.15" y="592.39" class="st55">11</text>			</g>
+					<g id="shape256-629" transform="matrix(1,0,0,1,42.6258,-70.6585)">
+														
+						<rect x="0" y="585.912" width="16.8418" height="9.36355" class="st40"></rect>
+						<text x="6.78" y="592.39" class="st55">1</text>			</g>
+					<g id="shape257-632" transform="matrix(1,0,0,1,52.4054,-4.05508)">
+														
+						<rect x="0" y="585.912" width="16.8418" height="9.36355" class="st40"></rect>
+						<text x="5.15" y="592.39" class="st55">13</text>			</g>
+					<g id="shape258-635" transform="matrix(1,0,0,1,38.834,0)">
+														
+						<rect x="0" y="585.912" width="16.8418" height="9.36355" class="st40"></rect>
+						<text x="5.15" y="592.39" class="st55">15</text>			</g>
+					<g id="shape259-638" transform="matrix(1,0,0,1,25.0257,-0.890012)">
+														
+						<rect x="0" y="585.912" width="16.8418" height="9.36355" class="st40"></rect>
+						<text x="5.15" y="592.39" class="st55">17</text>			</g>
+					<g id="shape260-641" transform="matrix(1,0,0,1,11.9125,-8.34188)">
+														
+						<rect x="0" y="585.912" width="16.8418" height="9.36355" class="st40"></rect>
+						<text x="5.15" y="592.39" class="st55">19</text>			</g>
+					<g id="shape261-644" transform="matrix(1,0,0,1,4.17094,-19.2221)">
+														
+						<rect x="0" y="585.912" width="16.8418" height="9.36355" class="st40"></rect>
+						<text x="5.15" y="592.39" class="st55">21</text>			</g>
+					<g id="shape262-647" transform="matrix(1,0,0,1,0,-33.0621)">
+														
+						<rect x="0" y="585.912" width="16.8418" height="9.36355" class="st40"></rect>
+						<text x="5.15" y="592.39" class="st55">23</text>			</g>
+					<g id="shape263-650" transform="matrix(1,0,0,1,2.27506,-47.2812)">
+														
+						<rect x="0" y="585.912" width="16.8418" height="9.36355" class="st40"></rect>
+						<text x="5.15" y="592.39" class="st55">25</text>			</g>
+					<g id="shape264-653" transform="matrix(1,0,0,1,9.55841,-59.4149)">
+														
+						<rect x="0" y="585.912" width="16.8418" height="9.36355" class="st40"></rect>
+						<text x="5.15" y="592.39" class="st55">27</text>			</g>
+					<g id="shape265-656" transform="matrix(1,0,0,1,20.9337,-67.7567)">
+														
+						<rect x="0" y="585.912" width="16.8418" height="9.36355" class="st40"></rect>
+						<text x="5.15" y="592.39" class="st55">29</text>			</g>
+					<g id="shape266-659" transform="matrix(1,0,0,1,34.8842,-71.1693)">
+														
+						<rect x="0" y="585.912" width="16.8418" height="9.36355" class="st40"></rect>
+						<text x="5.15" y="592.39" class="st55">31</text>			</g>
+					<g id="shape267-662" transform="matrix(1,0,0,1,56.3709,-71.6433)">
+										<ellipse cx="1.42191" cy="593.854" rx="1.42191" ry="1.42191" class="st1"></ellipse>
+					</g>
+					<g id="shape268-664" transform="matrix(1,0,0,1,68.1254,-63.6806)">
+										<ellipse cx="1.42191" cy="593.854" rx="1.42191" ry="1.42191" class="st1"></ellipse>
+					</g>
+					<g id="shape269-666" transform="matrix(1,0,0,1,75.7089,-51.5469)">
+										<ellipse cx="1.42191" cy="593.854" rx="1.42191" ry="1.42191" class="st1"></ellipse>
+					</g>
+					<g id="shape270-668" transform="matrix(1,0,0,1,77.984,-37.1382)">
+										<ellipse cx="1.42191" cy="593.854" rx="1.42191" ry="1.42191" class="st1"></ellipse>
+					</g>
+					<g id="shape271-670" transform="matrix(1,0,0,1,74.5714,-23.1087)">
+										<ellipse cx="1.42191" cy="593.854" rx="1.42191" ry="1.42191" class="st1"></ellipse>
+					</g>
+					<g id="shape272-672" transform="matrix(1,0,0,1,65.092,-10.9751)">
+										<ellipse cx="1.42191" cy="593.854" rx="1.42191" ry="1.42191" class="st1"></ellipse>
+					</g>
+					<g id="shape273-674" transform="matrix(1,0,0,1,52.5792,-4.14988)">
+										<ellipse cx="1.42191" cy="593.854" rx="1.42191" ry="1.42191" class="st1"></ellipse>
+					</g>
+					<g id="shape274-676" transform="matrix(1,0,0,1,38.5496,-3.01235)">
+										<ellipse cx="1.42191" cy="593.854" rx="1.42191" ry="1.42191" class="st1"></ellipse>
+					</g>
+					<g id="shape275-678" transform="matrix(1,0,0,1,24.5201,-7.18329)">
+										<ellipse cx="1.42191" cy="593.854" rx="1.42191" ry="1.42191" class="st1"></ellipse>
+					</g>
+					<g id="shape276-680" transform="matrix(1,0,0,1,13.9031,-16.2835)">
+										<ellipse cx="1.42191" cy="593.854" rx="1.42191" ry="1.42191" class="st1"></ellipse>
+					</g>
+					<g id="shape277-682" transform="matrix(1,0,0,1,7.07796,-29.5547)">
+										<ellipse cx="1.42191" cy="593.854" rx="1.42191" ry="1.42191" class="st1"></ellipse>
+					</g>
+					<g id="shape278-684" transform="matrix(1,0,0,1,6.31961,-43.9634)">
+										<ellipse cx="1.42191" cy="593.854" rx="1.42191" ry="1.42191" class="st1"></ellipse>
+					</g>
+					<g id="shape279-686" transform="matrix(1,0,0,1,11.6281,-57.9929)">
+										<ellipse cx="1.42191" cy="593.854" rx="1.42191" ry="1.42191" class="st1"></ellipse>
+					</g>
+					<g id="shape280-688" transform="matrix(1,0,0,1,21.4867,-68.6099)">
+										<ellipse cx="1.42191" cy="593.854" rx="1.42191" ry="1.42191" class="st1"></ellipse>
+					</g>
+					<g id="shape281-690" transform="matrix(1,0,0,1,34.7579,-74.2975)">
+										<ellipse cx="1.42191" cy="593.854" rx="1.42191" ry="1.42191" class="st1"></ellipse>
+					</g>
+				</g>
+				<g id="shape282-692" transform="matrix(0.9781476007338056,-0.20791169081775987,0.20791169081775987,0.9781476007338056,75.73380487675601,-171.33312997575848)">
+								<path d="M4.25 595.28 L2.13 564.09 L0 595.28 L4.25 595.28 Z" class="st42"></path>
+				</g>
+				<g id="shape292-694" transform="matrix(1,0,0,1,263.598,-311.355)">
+											
+					<rect x="0" y="581.276" width="25.1811" height="14" class="st40"></rect>
+					<text x="9.86" y="591.28" class="st49">1</text>		</g>
+				<g id="shape293-697" transform="matrix(1,0,0,1,253.488,-282.347)">
+											
+					<rect x="0" y="581.276" width="25.1811" height="14" class="st40"></rect>
+					<text x="9.86" y="591.28" class="st49">2</text>		</g>
+				<g id="shape294-700" transform="matrix(1,0,0,1,267.661,-252.677)">
+											
+					<rect x="0" y="581.276" width="25.1811" height="14" class="st40"></rect>
+					<text x="9.86" y="591.28" class="st49">3</text>		</g>
+				<g id="shape295-703" transform="matrix(1,0,0,1,292.89,-242.189)">
+											
+					<rect x="0" y="581.276" width="25.1811" height="14" class="st40"></rect>
+					<text x="9.86" y="591.28" class="st49">4</text>		</g>
+				<g id="shape296-706" transform="matrix(1,0,0,1,319.535,-252.677)">
+											
+					<rect x="0" y="581.276" width="25.1811" height="14" class="st40"></rect>
+					<text x="9.86" y="591.28" class="st49">5</text>		</g>
+				<g id="shape297-709" transform="matrix(1,0,0,1,333.992,-281.402)">
+											
+					<rect x="0" y="581.276" width="25.1811" height="14" class="st40"></rect>
+					<text x="9.86" y="591.28" class="st49">6</text>		</g>
+				<g id="shape298-712" transform="matrix(1,0,0,1,321.992,-311.355)">
+											
+					<rect x="0" y="581.276" width="25.1811" height="14" class="st40"></rect>
+					<text x="9.86" y="591.28" class="st49">7</text>		</g>
+				<g id="shape299-715" transform="matrix(1,0,0,1,292.701,-332.898)">
+											
+					<rect x="0" y="581.276" width="25.1811" height="14" class="st40"></rect>
+					<text x="4" y="591.28" class="st56">Дні</text>		</g>
+				<g id="shape305-718" transform="matrix(1,0,0,1,87.5906,-190.417)">
+								
+					<rect x="0" y="581.102" width="51.0236" height="14.1732" class="st57"></rect>
+					<text x="12.41" y="591.79" class="st58">2015</text>		</g>
+				<g id="group306-721" transform="matrix(1,0,0,1,141.165,-312.024)">
+								<g id="shape307-722" transform="matrix(1,0,0,1,0.321739,-60.5853)">
+										<path d="M47.09 592.41 A3.30872 3.30872 -174.23 0 0 53.64 592.44 A6.71485 6.71485 179.9 0 1 65.45 592.41 L65.65 592.41
+									 A2.91195 2.91195 -171.76 0 0 65.71 592.94 A2.91195 2.91195 -0.46 0 0 65.99 593.71 A2.91195 2.91195 -0.49
+									 0 0 70.98 593.96 A23.811 23.811 171.98 0 1 71.35 592.41 A23.811 23.811 157.54 0 1 71.46 592.04 A23.811
+									 23.811 0.06 0 1 115.36 587.51 A23.811 23.811 177.69 0 1 115.7 588.18 A23.811 23.811 170.18 0 1 116.23
+									 589.33 A2.91195 2.91195 -0.12 0 0 118.41 590.15 A59.5276 59.5276 -127.76 0 0 -0 590.15 A2.91195 2.91195
+									 -1.52 0 0 2.33 589.18 A23.811 23.811 175.05 0 1 2.84 588.08 A23.811 23.811 167.1 0 1 3.02 587.72 A23.811
+									 23.811 179.71 0 1 47.06 592.13 A3.30872 3.30872 -174.23 0 0 47.09 592.41 Z" class="st59"></path>
+					</g>
+					<g id="group308-726" transform="matrix(0.5000000000000001,0.8660254037844386,-0.8660254037844386,0.5000000000000001,563.146,218.434)">
+										<g id="shape309-727" transform="matrix(1,0,0,1,0,-11.5748)">
+												<ellipse cx="23.811" cy="571.465" rx="23.811" ry="23.811" class="st60"></ellipse>
+						</g>
+						<g id="shape310-729" transform="matrix(6.123233995736766E-17,1.0,-1.0,6.123233995736766E-17,619.087,583.937)">
+												<path d="M0 595.28 L11.34 595.28" class="st61"></path>
+						</g>
+					</g>
+					<g id="shape311-732">
+										<path d="M47.41 531.83 A3.30872 3.30872 5.77 0 1 47.39 531.55 A23.811 23.811 -0.29 0 0 3.35 527.13 A2.91195 2.91195
+									 1.06 0 1 3.25 527.53 A2.91195 2.91195 179.58 0 1 2.65 528.59 A2.91195 2.91195 178.48 0 1 0.32 529.57
+									 A59.5276 59.5276 -180 1 0 118.73 529.57 A2.91195 2.91195 179.88 0 1 116.55 528.75 A2.91195 2.91195 1.71
+									 0 1 115.85 527.65 A2.91195 2.91195 178.85 0 1 115.68 526.93 A23.811 23.811 -179.94 0 0 71.78 531.45
+									 A2.91195 2.91195 2.37 0 1 71.79 531.82 A2.91195 2.91195 1.47 0 1 71.31 533.38 A2.91195 2.91195 179.51
+									 0 1 66.31 533.13 A2.91195 2.91195 179.54 0 1 66.03 532.36 A6.73228 6.73228 -14.96 0 0 65.77 531.82 A6.71075
+									 6.71075 -0.1 0 0 54.01 531.79 A3.32669 3.32669 5.77 0 1 47.41 531.83 Z" class="st62"></path>
+					</g>
+					<g id="shape312-736" transform="matrix(0.6018150231520483,0.7986355100472928,-0.7986355100472928,0.6018150231520483,483.55,206.333)">
+														
+						<rect x="0" y="581.276" width="17.0079" height="14" class="st40"></rect>
+						<text x="4.48" y="592.48" class="st63">У</text>			</g>
+					<g id="shape313-739" transform="matrix(0.8660254037844387,0.49999999999999994,-0.49999999999999994,0.8660254037844387,317.813,64.499)">
+														
+						<rect x="0" y="581.276" width="17.0079" height="14" class="st40"></rect>
+						<text x="4.29" y="592.48" class="st63">К</text>			</g>
+					<g id="shape314-742" transform="matrix(0.9659258262890683,0.25881904510252074,-0.25881904510252074,0.9659258262890683,189.218,14.606)">
+														
+						<rect x="0" y="581.276" width="17.0079" height="14" class="st40"></rect>
+						<text x="4.65" y="592.48" class="st63">Р</text>			</g>
+					<g id="shape315-745" transform="matrix(1,0,0,1,51.3071,-1.31609)">
+														
+						<rect x="0" y="581.276" width="17.0079" height="14" class="st40"></rect>
+						<text x="4.31" y="592.48" class="st63">А</text>			</g>
+					<g id="shape316-748" transform="matrix(0.9335804264972017,-0.35836794954530027,0.35836794954530027,0.9335804264972017,-141.656,38.1318)">
+														
+						<rect x="0" y="581.276" width="17.0079" height="14" class="st40"></rect>
+						<text x="5.89" y="592.48" class="st63">Ї</text>			</g>
+					<g id="shape317-751" transform="matrix(0.7986355100472928,-0.6018150231520483,0.6018150231520483,0.7986355100472928,-270.258,111.812)">
+														
+						<rect x="0" y="581.276" width="17.0079" height="14" class="st40"></rect>
+						<text x="3.78" y="592.48" class="st63">Н</text>			</g>
+					<g id="shape318-754" transform="matrix(0.573576436351046,-0.8191520442889918,0.8191520442889918,0.573576436351046,-384.688,236.679)">
+														
+						<rect x="0" y="581.276" width="17.0079" height="14" class="st40"></rect>
+						<text x="4.31" y="592.48" class="st63">А</text>			</g>
+					<g id="shape319-757" transform="matrix(1,0,0,1,43.3701,-36.4252)">
+														
+						<rect x="0" y="581.276" width="32.315" height="14" class="st40"></rect>
+						<text x="3.71" y="593.68" class="st64">PR</text>			</g>
+					<g id="shape320-760" transform="matrix(1,0,0,1,65.7716,-62.9193)">
+										<path d="M-0 594.74 A6.73228 6.73228 165.04 0 1 0.26 595.28 A2.91195 2.91195 8.24 0 1 0.2 594.74 L0 594.74 Z" class="st65"></path>
+					</g>
+					<g id="shape321-762" transform="matrix(1,0,0,1,2.65205,-66.6853)">
+										<path d="M0.6 594.21 L0.51 594.18 A23.811 23.811 -4.95 0 0 0 595.28 A2.91195 2.91195 -0.42 0 0 0.6 594.21 Z" class="st65"></path>
+					</g>
+					<g id="shape322-764" transform="matrix(1,0,0,1,71.6737,-63.4538)">
+										<path d="M0.12 595.28 A2.91195 2.91195 -177.63 0 0 0.1 594.91 A23.811 23.811 -22.46 0 0 -0 595.28 L0.12 595.28 Z" class="st65"></path>
+					</g>
+					<g id="shape323-766" transform="matrix(1,0,0,1,71.3058,-61.9002)">
+										<path d="M-0 595.28 A2.91195 2.91195 -178.53 0 0 0.49 593.72 L0.37 593.72 A23.811 23.811 -8.02 0 0 0 595.28 Z" class="st65"></path>
+					</g>
+					<g id="shape324-768" transform="matrix(1,0,0,1,115.683,-67.6235)">
+										<path d="M0.16 595.28 L0.34 595.22 A23.811 23.811 -2.31 0 0 0 594.55 A2.91195 2.91195 -1.15 0 0 0.16 595.28 Z" class="st65"></path>
+					</g>
+					<g id="shape325-770" transform="matrix(1,0,0,1,115.845,-66.5295)">
+										<path d="M-0 594.18 A2.91195 2.91195 -178.29 0 0 0.71 595.28 A23.811 23.811 -9.82 0 0 0.18 594.12 L0 594.18 Z" class="st65"></path>
+					</g>
+					<g id="shape326-772" transform="matrix(1,0,0,1,3.16033,-67.7476)">
+										<path d="M0.19 594.88 A23.811 23.811 -12.9 0 0 -0 595.24 L0.09 595.28 A2.91195 2.91195 -178.94 0 0 0.19 594.88 Z" class="st65"></path>
+					</g>
+				</g>
+				<g id="group338-774" transform="matrix(1,0,0,1,397.134,-258.69)">
+								<g id="shape339-775">
+										<path d="M18.19 534.61 L16.53 530.56 L3.3 530.56 L1.64 534.61 L0 534.61 L0 591.31 L1.65 591.31 L3.3 595.28 L16.53
+									 595.28 L18.15 591.31 L19.84 591.31 L19.84 534.61 L18.19 534.61 Z" class="st66"></path>
+					</g>
+					<g id="shape340-779" transform="matrix(1,0,0,1,1.41732,-53.4331)">
+										<rect x="0" y="589.606" width="17.0079" height="5.66929" rx="2.83465" ry="2.83465" class="st67"></rect>
+					</g>
+					<g id="shape341-783" transform="matrix(1,0,0,1,1.41732,-45.3543)">
+										<rect x="0" y="589.606" width="17.0079" height="5.66929" rx="2.83465" ry="2.83465" class="st68"></rect>
+					</g>
+					<g id="shape342-787" transform="matrix(1,0,0,1,1.41732,-37.2756)">
+										<rect x="0" y="589.606" width="17.0079" height="5.66929" rx="2.83465" ry="2.83465" class="st69"></rect>
+					</g>
+					<g id="shape343-791" transform="matrix(1,0,0,1,1.41732,-29.1969)">
+										<rect x="0" y="589.606" width="17.0079" height="5.66929" rx="2.83465" ry="2.83465" class="st70"></rect>
+					</g>
+					<g id="shape344-795" transform="matrix(1,0,0,1,1.41732,-21.1181)">
+										<rect x="0" y="589.606" width="17.0079" height="5.66929" rx="2.83465" ry="2.83465" class="st69"></rect>
+					</g>
+					<g id="shape345-798" transform="matrix(1,0,0,1,1.41732,-13.0394)">
+										<rect x="0" y="589.606" width="17.0079" height="5.66929" rx="2.83465" ry="2.83465" class="st71"></rect>
+					</g>
+					<g id="shape346-802" transform="matrix(1,0,0,1,1.41732,-4.96063)">
+										<rect x="0" y="589.606" width="17.0079" height="5.66929" rx="2.83465" ry="2.83465" class="st72"></rect>
+					</g>
+				</g>
+				<g id="group347-806" transform="matrix(1,0,0,1,271.381,-255.602)">
+								<g id="shape348-807" transform="matrix(1,0,0,1,59.7629,-14.2555)">
+										<path d="M0 593.24 L2.8 595.28 A34.5827 34.5827 -180 0 0 9.4 574.95 L5.94 574.95 A31.1244 31.1244 0 0 1 0 593.24 Z" class="st53"></path>
+					</g>
+					<g id="shape349-809" transform="matrix(1,0,0,1,44.2006,-1.6926)">
+										<path d="M0 591.99 L1.07 595.28 A34.5827 34.5827 -180 0 0 18.36 582.71 L15.56 580.68 A31.1244 31.1244 0 0 1 0 591.99
+									 Z" class="st53"></path>
+					</g>
+					<g id="shape350-811" transform="matrix(1,0,0,1,23.896,0)">
+										<path d="M1.07 590.29 L0 593.58 A34.5827 34.5827 -180 0 0 21.37 593.58 L20.3 590.29 A31.1244 31.1244 0 0 1 1.07 590.29
+									 Z" class="st73"></path>
+					</g>
+					<g id="shape351-813" transform="matrix(1,0,0,1,6.6047,-1.6926)">
+										<path d="M2.8 580.68 L0 582.71 A34.5827 34.5827 -180 0 0 17.29 595.28 L18.36 591.99 A31.1244 31.1244 0 0 1 2.8 580.68
+									 Z" class="st53"></path>
+					</g>
+					<g id="shape352-815" transform="matrix(1,0,0,1,5.09592e-014,-14.2555)">
+										<path d="M3.46 574.95 L0 574.95 A34.5827 34.5827 -180 0 0 6.6 595.28 L9.4 593.24 A31.1244 31.1244 0 0 1 3.46 574.95
+									 Z" class="st53"></path>
+					</g>
+					<g id="shape353-817" transform="matrix(1,0,0,1,-1.19904e-014,-34.5827)">
+										<path d="M9.4 576.98 L6.6 574.95 A34.5827 34.5827 -180 0 0 0 595.28 L3.46 595.28 A31.1244 31.1244 0 0 1 9.4 576.98
+									 Z" class="st53"></path>
+					</g>
+					<g id="shape354-819" transform="matrix(1,0,0,1,6.6047,-52.8771)">
+										<path d="M18.36 583.97 L17.29 580.68 A34.5827 34.5827 -180 0 0 -0 593.24 L2.8 595.28 A31.1244 31.1244 0 0 1 18.36
+									 583.97 Z" class="st53"></path>
+					</g>
+					<g id="shape355-821" transform="matrix(1,0,0,1,59.7629,-34.5827)">
+										<path d="M0 576.98 A31.1244 31.1244 0 0 1 5.94 595.28 L9.4 595.28 A34.5827 34.5827 -180 0 0 2.8 574.95 L0 576.98 Z" class="st53"></path>
+					</g>
+					<g id="shape356-823" transform="matrix(1,0,0,1,44.2006,-52.8771)">
+										<path d="M0 583.97 A31.1244 31.1244 0 0 1 15.56 595.28 L18.36 593.24 A34.5827 34.5827 -180 0 0 1.07 580.68 L0 583.97
+									 Z" class="st74"></path>
+					</g>
+					<g id="shape357-825" transform="matrix(1,0,0,1,17.5219,-54.4421)">
+														
+						<rect x="0" y="585.394" width="14.0892" height="9.88168" class="st75"></rect>
+						<text x="4.86" y="592.73" class="st76">0</text>			</g>
+					<g id="shape358-828" transform="matrix(1,0,0,1,5.50761,-44.6277)">
+														
+						<rect x="0" y="585.394" width="14.0892" height="9.88168" class="st75"></rect>
+						<text x="4.86" y="592.73" class="st76">1</text>			</g>
+					<g id="shape359-831" transform="matrix(1,0,0,1,1.02467,-29.6418)">
+														
+						<rect x="0" y="585.394" width="14.0892" height="9.88168" class="st75"></rect>
+						<text x="4.86" y="592.73" class="st76">2</text>			</g>
+					<g id="shape360-834" transform="matrix(1,0,0,1,6.66037,-13.8331)">
+														
+						<rect x="0" y="585.394" width="14.0892" height="9.88168" class="st75"></rect>
+						<text x="4.86" y="592.73" class="st76">3</text>			</g>
+					<g id="shape361-837" transform="matrix(1,0,0,1,18.1879,-4.61102)">
+														
+						<rect x="0" y="585.394" width="14.0892" height="9.88168" class="st75"></rect>
+						<text x="4.86" y="592.73" class="st76">4</text>			</g>
+					<g id="shape362-840" transform="matrix(1,0,0,1,36.7601,-4.61102)">
+														
+						<rect x="0" y="585.394" width="14.0892" height="9.88168" class="st75"></rect>
+						<text x="4.86" y="592.73" class="st76">4</text>			</g>
+					<g id="shape363-843" transform="matrix(1,0,0,1,50.004,-13.372)">
+														
+						<rect x="0" y="585.394" width="14.0892" height="9.88168" class="st75"></rect>
+						<text x="4.86" y="592.73" class="st76">5</text>			</g>
+					<g id="shape364-846" transform="matrix(1,0,0,1,54.1795,-29.312)">
+														
+						<rect x="0" y="585.394" width="14.0892" height="9.88168" class="st75"></rect>
+						<text x="4.86" y="592.73" class="st76">6</text>			</g>
+					<g id="shape365-849" transform="matrix(1,0,0,1,49.5685,-44.6277)">
+														
+						<rect x="0" y="585.394" width="14.0892" height="9.88168" class="st75"></rect>
+						<text x="4.86" y="592.73" class="st76">7</text>			</g>
+					<g id="shape366-852" transform="matrix(1,0,0,1,37.7848,-54.4421)">
+														
+						<rect x="0" y="585.394" width="14.0892" height="9.88168" class="st75"></rect>
+						<text x="4.86" y="592.73" class="st76">8</text>			</g>
+					<g id="shape367-855" transform="matrix(1,0,0,1,24.1438,-1.9757)">
+														
+						<rect x="0" y="585.394" width="20.8777" height="9.88168" class="st75"></rect>
+						<text x="4.31" y="592.13" class="st77">Обід</text>			</g>
+				</g>
+				<g id="group369-858" transform="matrix(1,0,0,1,192.944,-176.244)">
+								<g id="shape370-859" transform="matrix(1,0,0,1,6.37795,-6.37795)">
+										<ellipse cx="2.12598" cy="593.15" rx="2.12598" ry="2.12598" class="st78"></ellipse>
+					</g>
+					<g id="shape371-861">
+										<path d="M17.01 586.77 A8.50394 8.50394 -180 1 0 -0 586.77 A8.50394 8.50394 -180 1 0 17.01 586.77 ZM14.88 586.77
+									 A6.37795 6.37795 -180 1 0 2.13 586.77 A6.37795 6.37795 -180 1 0 14.88 586.77 Z" class="st42"></path>
+					</g>
+					<g id="shape372-863" transform="matrix(1,0,0,1,2.12598,-2.12598)">
+										<path d="M12.76 588.9 A6.37795 6.37795 -180 1 0 0 588.9 A6.37795 6.37795 -180 1 0 12.76 588.9 ZM11.34 588.9 A4.96063
+									 4.96063 -180 1 0 1.42 588.9 A4.96063 4.96063 -180 1 0 11.34 588.9 Z" class="st79"></path>
+					</g>
+					<g id="shape373-865" transform="matrix(1,0,0,1,3.54331,-3.54331)">
+										<path d="M9.92 590.31 A4.96063 4.96063 -180 1 0 0 590.31 A4.96063 4.96063 -180 1 0 9.92 590.31 ZM7.09 590.31 A2.12598
+									 2.12598 -180 1 0 2.83 590.31 A2.12598 2.12598 -180 1 0 7.09 590.31 Z" class="st42"></path>
+					</g>
+				</g>
+				<g id="shape248-867" transform="matrix(0.7826081568524139,-0.6225146366376195,0.6225146366376195,0.7826081568524139,-66.43369978100174,-158.5702921734454)">
+								<path d="M4.25 595.28 L2.13 549.92 L0 595.28 L4.25 595.28 Z" class="st42"></path>
+				</g>
+				<g id="shape368-869" transform="matrix(0.6293203910498375,-0.7771459614569708,0.7771459614569708,0.6293203910498375,-158.07428682364218,-67.04864856937826)">
+								<path d="M4.25 595.28 L2.13 564.09 L0 595.28 L4.25 595.28 Z" class="st42"></path>
+				</g>
+				<g id="group300-871" transform="matrix(1.0,0.0,0.0,-1.0,297.459,892.708)">
+								<g id="shape301-872" transform="matrix(1,0,0,1,6.37795,-6.37795)">
+										<ellipse cx="2.12598" cy="593.15" rx="2.12598" ry="2.12598" class="st43"></ellipse>
+					</g>
+					<g id="shape302-874">
+										<path d="M17.01 586.77 A8.50394 8.50394 -180 1 0 -0 586.77 A8.50394 8.50394 -180 1 0 17.01 586.77 ZM14.88 586.77
+									 A6.37795 6.37795 -180 1 0 2.13 586.77 A6.37795 6.37795 -180 1 0 14.88 586.77 Z" class="st44"></path>
+					</g>
+					<g id="shape303-876" transform="matrix(1,0,0,1,2.12598,-2.12598)">
+										<path d="M12.76 588.9 A6.37795 6.37795 -180 1 0 0 588.9 A6.37795 6.37795 -180 1 0 12.76 588.9 ZM11.34 588.9 A4.96063
+									 4.96063 -180 1 0 1.42 588.9 A4.96063 4.96063 -180 1 0 11.34 588.9 Z" class="st45"></path>
+					</g>
+					<g id="shape304-878" transform="matrix(1,0,0,1,3.54331,-3.54331)">
+										<path d="M9.92 590.31 A4.96063 4.96063 -180 1 0 0 590.31 A4.96063 4.96063 -180 1 0 9.92 590.31 ZM7.09 590.31 A2.12598
+									 2.12598 -180 1 0 2.83 590.31 A2.12598 2.12598 -180 1 0 7.09 590.31 Z" class="st44"></path>
+					</g>
+				</g>
+				<g id="group327-880" transform="matrix(0.8660254037844384,-0.5000000000000004,0.5000000000000004,0.8660254037844384,-100.01776011916553,-208.55709337551104)">
+								<g id="shape328-881">
+										<ellipse cx="3.54331" cy="514.488" rx="3.54331" ry="80.7874" class="st42"></ellipse>
+					</g>
+					<g id="shape329-883" transform="matrix(6.123233995736766E-17,1.0,-1.0,6.123233995736766E-17,598.819,434.708)">
+										<path d="M0 595.28 L159.56 595.28" class="st54"></path>
+					</g>
+				</g>
+				<g id="group330-886" transform="matrix(0.46174861323503325,-0.887010833178222,0.887010833178222,0.46174861323503325,-328.9650908987756,33.47209385804763)">
+								<g id="shape331-887">
+										<ellipse cx="3.54331" cy="538.583" rx="3.54331" ry="56.6929" class="st80"></ellipse>
+					</g>
+					<g id="shape332-889" transform="matrix(6.123233995736766E-17,1.0,-1.0,6.123233995736766E-17,598.819,482.596)">
+										<path d="M0 595.28 L111.97 595.28" class="st81"></path>
+					</g>
+				</g>
+				<g id="group333-892" transform="matrix(1,0,0,1,183.685,-273.189)">
+								<g id="shape334-893" transform="matrix(1,0,0,1,12.7559,-12.7559)">
+										<ellipse cx="4.25197" cy="591.024" rx="4.25197" ry="4.25197" class="st78"></ellipse>
+					</g>
+					<g id="shape335-895">
+										<path d="M34.02 578.27 A17.0079 17.0079 -180 1 0 0 578.27 A17.0079 17.0079 -180 1 0 34.02 578.27 ZM29.76 578.27 A12.7559
+									 12.7559 -180 1 0 4.25 578.27 A12.7559 12.7559 -180 1 0 29.76 578.27 Z" class="st42"></path>
+					</g>
+					<g id="shape336-897" transform="matrix(1,0,0,1,4.25197,-4.25197)">
+										<path d="M25.51 582.52 A12.7559 12.7559 -180 1 0 0 582.52 A12.7559 12.7559 -180 1 0 25.51 582.52 ZM22.68 582.52 A9.92126
+									 9.92126 -180 1 0 2.83 582.52 A9.92126 9.92126 -180 1 0 22.68 582.52 Z" class="st79"></path>
+					</g>
+					<g id="shape337-899" transform="matrix(1,0,0,1,7.08661,-7.08661)">
+										<path d="M19.84 585.35 A9.92126 9.92126 -180 1 0 0 585.35 A9.92126 9.92126 -180 1 0 19.84 585.35 ZM14.17 585.35 A4.25197
+									 4.25197 -180 1 0 5.67 585.35 A4.25197 4.25197 -180 1 0 14.17 585.35 Z" class="st42"></path>
+					</g>
+				</g>
+			</g>
+		</svg>
+	</div>
+</body>
+</html>

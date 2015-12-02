@@ -1,0 +1,12 @@
+{
+  "name": "gulpTemplate",
+  "authors": [
+    "Pavlo <naduda.pr@gmail.com>"
+  ],
+  "description": "Test app description",
+  "license": "MIT",
+  "homepage": "index.html",
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}
