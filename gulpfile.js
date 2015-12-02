@@ -4,7 +4,7 @@ var gulp = require('gulp'),
 	gulpif = require('gulp-if'),
 	uglify = require('gulp-uglify'),
 	minifyCss = require('gulp-minify-css'),
-	clean = require('gulp-clean'),
+	rimraf = require('gulp-rimraf'),
 	sftp = require('gulp-sftp'),
 	connect = require('gulp-connect'),
 	livereload = require('gulp-livereload'),
@@ -18,9 +18,9 @@ gulp.task('connect', function(){
 	});
 });
 
-gulp.task('clean', function () {
-		return gulp.src('dist', {read: false})
-				.pipe(clean());
+gulp.task('clean', function(){
+	return gulp.src('dist', {read: false})
+		.pipe(rimraf());
 });
  
 gulp.task('build', ['clean', 'bower'], function () {
