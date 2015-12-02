@@ -1,6 +1,6 @@
 'use strict';
 module PrWatch {
-	interface ISVGtrans {
+	export interface ISVGtrans {
 			toMatrix(transform: string): string;
 			getMatrix(s1: string, s2: string): string;
 	}
@@ -44,7 +44,7 @@ module PrWatch {
 											}
 											break;
 									case 'rotate':
-											function toRadians(angle) {
+											var toRadians = function (angle){
 													return angle * (Math.PI / 180);
 											}
 											var cosX: number = Math.cos(toRadians(params[0]));

@@ -7,9 +7,10 @@ var gulp = require('gulp'),
 	clean = require('gulp-clean'),
 	sftp = require('gulp-sftp'),
 	connect = require('gulp-connect'),
-	livereload = require('gulp-livereload');
+	livereload = require('gulp-livereload'),
+	ts = require('gulp-typescript');
 
-gulp.task('connect', function() {
+gulp.task('connect', function(){
 	connect.server({
 		root: 'src',
 		port: 8088,
@@ -49,14 +50,21 @@ gulp.task('css', function(){
 });
 
 gulp.task('js', function(){
-	gulp.src('./src/js/*.js')
+	gulp.src('./src/js/**/*.js')
 		.pipe(connect.reload());
+});
+
+gulp.task('typescript', function(){
+	return gulp.src('./src/ts/**/*.ts')
+		.pipe(ts({target: 'ES5'}))
+		.pipe(gulp.dest('src/js'));
 });
 
 gulp.task('watch', function(){
 	gulp.watch('src/css/*.css', ['css']);
 	gulp.watch('src/**/*.html', ['html']);
-	gulp.watch('src/js/*.js', ['js']);
+	gulp.watch('src/js/**/*.js', ['js']);
+	gulp.watch('src/ts/**/*.ts', ['typescript']);
 });
 
-gulp.task('default', ['connect', 'html', 'css', 'js', 'watch']);
+gulp.task('default', ['connect', 'typescript', 'html', 'css', 'js', 'watch']);

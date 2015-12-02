@@ -1,4 +1,5 @@
 ///<reference path="SVGtrans.ts" />
+
 'use strict';
 module PrWatch {
 		interface IClock {
@@ -14,7 +15,7 @@ module PrWatch {
 		}
 		export class Clock implements IClock {
 				private date: any;
-				private svgTrans: PrWatch.SVGtrans;
+				private svgTrans: PrWatch.ISVGtrans;
 				private monthConst: string;
 				private dayConst: string;
 				private day2Const: string;

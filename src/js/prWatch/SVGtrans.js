@@ -41,9 +41,9 @@ var PrWatch;
                         }
                         break;
                     case 'rotate':
-                        function toRadians(angle) {
+                        var toRadians = function (angle) {
                             return angle * (Math.PI / 180);
-                        }
+                        };
                         var cosX = Math.cos(toRadians(params[0]));
                         var sinX = Math.sin(toRadians(params[0]));
                         matrix += 'matrix(' + cosX + ',' + sinX + ',' + (-sinX) + ',' + cosX + ',0,0)';

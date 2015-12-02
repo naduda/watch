@@ -1,21 +1,21 @@
-///<reference path="../typings/jquery/jquery.d.ts" />
-///<reference path="Clock.ts" />
+///<reference path="prWatch/Clock.ts" />
 'use strict';
-$(document).ready(function () {
-    var clock = new PrWatch.Clock(), isHide = true, isMirror = window.location.href.indexOf('#') > 0, year = $('#shape305-718').find('text'), monthArrow = $('#group245-605'), dOfMonthArrow = $('#shape282-692'), dayArrow = $('#shape142-373'), day2Arrow = $('#shape248-867'), workHourArrow = $('#shape368-869'), hourArrow = $('#group330-886'), minuteArrow = $('#group327-880'), secArrow = $('#shape141-371');
-    isMirror && $('#mainG').attr('transform', 'scale(-1,1) translate(-420)');
+document.addEventListener("DOMContentLoaded", function (event) {
+    var clock = new PrWatch.Clock(), isHide = true, isMirror = window.location.href.indexOf('#') > 0, year = document.querySelector('#shape305-718 text'), monthArrow = document.getElementById('group245-605'), dOfMonthArrow = document.getElementById('shape282-692'), dayArrow = document.getElementById('shape142-373'), day2Arrow = document.getElementById('shape248-867'), workHourArrow = document.getElementById('shape368-869'), hourArrow = document.getElementById('group330-886'), minuteArrow = document.getElementById('group327-880'), secArrow = document.getElementById('shape141-371');
+    isMirror && document.getElementById('mainG')
+        .setAttribute('transform', 'scale(-1,1) translate(-420)');
     function run() {
         clock.setDate(new Date());
-        year.html(clock.getYear());
-        monthArrow.attr('transform', clock.getMonth());
-        dOfMonthArrow.attr('transform', clock.getDayOfMonth());
-        dayArrow.attr('transform', clock.getDay());
-        day2Arrow.attr('transform', clock.getDay2());
-        workHourArrow.attr('transform', clock.getWorkHour());
-        hourArrow.attr('transform', clock.getHour());
-        minuteArrow.attr('transform', clock.getMinute());
-        secArrow.attr('transform', clock.getSecond());
-        isHide && $('#svgWatch').attr('style', '');
+        year.textContent = 'y = ' + clock.getYear();
+        monthArrow.setAttribute('transform', clock.getMonth());
+        dOfMonthArrow.setAttribute('transform', clock.getDayOfMonth());
+        dayArrow.setAttribute('transform', clock.getDay());
+        day2Arrow.setAttribute('transform', clock.getDay2());
+        workHourArrow.setAttribute('transform', clock.getWorkHour());
+        hourArrow.setAttribute('transform', clock.getHour());
+        minuteArrow.setAttribute('transform', clock.getMinute());
+        secArrow.setAttribute('transform', clock.getSecond());
+        isHide && document.getElementById('svgWatch').setAttribute('style', '');
     }
     setInterval(run, 1000);
 });
