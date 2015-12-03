@@ -1,5 +1,4 @@
 ///<reference path="SVGtrans.ts" />
-
 'use strict';
 module PrWatch {
 		interface IClock {
@@ -14,16 +13,13 @@ module PrWatch {
 				getSecond(): string;
 		}
 		export class Clock implements IClock {
-				private date: Date;
-				private svgTrans: PrWatch.ISVGtrans;
 				private monthConst: string;
 				private dayConst: string;
 				private day2Const: string;
 				private dOfMonthConst: string;
 				private hourConst: string;
 				private secondConst: string;
-				constructor() {
-						this.date = new Date();
+				constructor(private date?: Date, private svgTrans?: PrWatch.ISVGtrans) {
 						this.svgTrans = new PrWatch.SVGtrans();
 						this.monthConst = this.svgTrans.getMatrix(
 								'matrix(1.0,0.0,0.0,1.0,200.5477376351994,-184.91156487470812)',

@@ -3,8 +3,9 @@
 var PrWatch;
 (function (PrWatch) {
     var Clock = (function () {
-        function Clock() {
-            this.date = new Date();
+        function Clock(date, svgTrans) {
+            this.date = date;
+            this.svgTrans = svgTrans;
             this.svgTrans = new PrWatch.SVGtrans();
             this.monthConst = this.svgTrans.getMatrix('matrix(1.0,0.0,0.0,1.0,200.5477376351994,-184.91156487470812)', this.svgTrans.toMatrix('translate(1.41732,595.28)'));
             this.dOfMonthConst = this.svgTrans.getMatrix('matrix(1.0,0.0,0.0,1.0,199.4529305763151,-184.7842781123805)', this.svgTrans.toMatrix('translate(2.13,595.28)'));
