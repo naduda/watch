@@ -1,24 +1,26 @@
 ///<reference path="prWatch/Clock.ts" />
 'use strict';
-document.addEventListener("DOMContentLoaded", function(event) {
+document.addEventListener("DOMContentLoaded", (e) => {
 		var clock = new PrWatch.Clock(),
 				isHide = true,
 				isMirror = window.location.href.indexOf('#') > 0,
-				year = document.querySelector('#shape305-718 text'),
-				monthArrow = document.getElementById('group245-605'),
-				dOfMonthArrow = document.getElementById('shape282-692'),
-				dayArrow = document.getElementById('shape142-373'),
-				day2Arrow = document.getElementById('shape248-867'),
-				workHourArrow = document.getElementById('shape368-869'),
-				hourArrow = document.getElementById('group330-886'),
-				minuteArrow = document.getElementById('group327-880'),
-				secArrow = document.getElementById('shape141-371');
+				$id = (id) => document.getElementById(id),
+				$q = (q) => document.querySelector(q),
+				year: HTMLElement = <HTMLElement>$q('#shape305-718 text'),
+				monthArrow: HTMLElement = <HTMLElement>$id('group245-605'),
+				dOfMonthArrow: HTMLElement = <HTMLElement>$id('shape282-692'),
+				dayArrow: HTMLElement = <HTMLElement>$id('shape142-373'),
+				day2Arrow: HTMLElement = <HTMLElement>$id('shape248-867'),
+				workHourArrow: HTMLElement = <HTMLElement>$id('shape368-869'),
+				hourArrow: HTMLElement = <HTMLElement>$id('group330-886'),
+				minuteArrow: HTMLElement = <HTMLElement>$id('group327-880'),
+				secArrow: HTMLElement = <HTMLElement>$id('shape141-371');
 
 		isMirror && document.getElementById('mainG')
 							.setAttribute('transform', 'scale(-1,1) translate(-420)');
 		function run(){
 				clock.setDate(new Date());
-				year.textContent = 'y = ' + clock.getYear();
+				year.textContent = clock.getYear();
 				monthArrow.setAttribute('transform', clock.getMonth());
 				dOfMonthArrow.setAttribute('transform', clock.getDayOfMonth());
 				dayArrow.setAttribute('transform', clock.getDay());
