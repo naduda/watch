@@ -55,6 +55,10 @@ module PrWatch {
 						this.date = date;
 				}
 
+				isNewMinute(): boolean {
+						return this.date.getSeconds() < 2;
+				}
+
 				getYear(): string {
 						return this.date.getFullYear();
 				}

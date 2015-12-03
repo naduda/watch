@@ -16,6 +16,9 @@ var PrWatch;
         Clock.prototype.setDate = function (date) {
             this.date = date;
         };
+        Clock.prototype.isNewMinute = function () {
+            return this.date.getSeconds() < 2;
+        };
         Clock.prototype.getYear = function () {
             return this.date.getFullYear();
         };

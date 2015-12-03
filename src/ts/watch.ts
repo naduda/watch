@@ -20,16 +20,21 @@ document.addEventListener("DOMContentLoaded", (e) => {
 							.setAttribute('transform', 'scale(-1,1) translate(-420)');
 		function run(){
 				clock.setDate(new Date());
-				year.textContent = clock.getYear();
-				monthArrow.setAttribute('transform', clock.getMonth());
-				dOfMonthArrow.setAttribute('transform', clock.getDayOfMonth());
-				dayArrow.setAttribute('transform', clock.getDay());
-				day2Arrow.setAttribute('transform', clock.getDay2());
-				workHourArrow.setAttribute('transform', clock.getWorkHour());
-				hourArrow.setAttribute('transform', clock.getHour());
-				minuteArrow.setAttribute('transform', clock.getMinute());
 				secArrow.setAttribute('transform', clock.getSecond());
-				isHide && document.getElementById('svgWatch').setAttribute('style', '');
+				if (isHide || clock.isNewMinute()) {
+						year.textContent = clock.getYear();
+						monthArrow.setAttribute('transform', clock.getMonth());
+						dOfMonthArrow.setAttribute('transform', clock.getDayOfMonth());
+						dayArrow.setAttribute('transform', clock.getDay());
+						day2Arrow.setAttribute('transform', clock.getDay2());
+						workHourArrow.setAttribute('transform', clock.getWorkHour());
+						hourArrow.setAttribute('transform', clock.getHour());
+						minuteArrow.setAttribute('transform', clock.getMinute());
+				}
+				if(isHide){
+						$id('svgWatch').setAttribute('style', '');
+						isHide = false;
+				}
 		}
 		setInterval(run, 1000);
 });
