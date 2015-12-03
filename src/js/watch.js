@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function (e) {
         clock.setDate(new Date());
         secArrow.setAttribute('transform', clock.getSecond());
         if (isHide || clock.isNewMinute()) {
-            year.textContent = clock.getYear();
+            year.textContent = clock.getYear().toString();
             monthArrow.setAttribute('transform', clock.getMonth());
             dOfMonthArrow.setAttribute('transform', clock.getDayOfMonth());
             dayArrow.setAttribute('transform', clock.getDay());

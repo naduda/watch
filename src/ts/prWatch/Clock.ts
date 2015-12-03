@@ -3,7 +3,7 @@
 'use strict';
 module PrWatch {
 		interface IClock {
-				getYear(): string;
+				getYear(): number;
 				getMonth(): string;
 				getDayOfMonth(): string;
 				getDay(): string;
@@ -14,7 +14,7 @@ module PrWatch {
 				getSecond(): string;
 		}
 		export class Clock implements IClock {
-				private date: any;
+				private date: Date;
 				private svgTrans: PrWatch.ISVGtrans;
 				private monthConst: string;
 				private dayConst: string;
@@ -51,7 +51,7 @@ module PrWatch {
 						);
 				}
 
-				setDate(date: any): void {
+				setDate(date: Date): void {
 						this.date = date;
 				}
 
@@ -59,7 +59,7 @@ module PrWatch {
 						return this.date.getSeconds() < 2;
 				}
 
-				getYear(): string {
+				getYear(): number {
 						return this.date.getFullYear();
 				}
 
