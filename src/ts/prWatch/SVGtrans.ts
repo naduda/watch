@@ -1,6 +1,6 @@
 'use strict';
 module PrWatch {
-	export interface ISVGtrans {
+	interface ISVGtrans {
 			toMatrix(transform: string): string;
 			getMatrix(s1: string, s2: string): string;
 	}
