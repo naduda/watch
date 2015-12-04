@@ -8,7 +8,7 @@ var gulp = require('gulp'),
 	sftp = require('gulp-sftp'),
 	connect = require('gulp-connect'),
 	livereload = require('gulp-livereload'),
-	ts = require('gulp-typescript');
+	tsc = require('gulp-typescript');
 
 gulp.task('connect', function(){
 	connect.server({
@@ -56,7 +56,7 @@ gulp.task('js', function(){
 
 gulp.task('typescript', function(){
 	return gulp.src('./src/ts/**/*.ts')
-		.pipe(ts({target: 'ES5'}))
+		.pipe(tsc({target: 'ES5'}))
 		.pipe(gulp.dest('src/js'));
 });
 
